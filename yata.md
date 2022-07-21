@@ -1,15 +1,15 @@
 # Yata: Yet Another To-Do App
 
-[Testflight Link](https://testflight.apple.com/join/pGhH4eRP)
-
-
-<img src="https://beetee17.github.io/docs/assets/yata/Onboarding.gif" width="200">
-
+[Testflight Link](https://testflight.apple.com/join/pGhH4eRP)  
 
 > What is important is seldom urgent and what is urgent is seldom important. 
 > - Dwight Eisenhower
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
+
+
+<img src="https://beetee17.github.io/docs/assets/yata/OverallDemo.gif" width="200">
+
 
 ### Main Features
 - **iCloud Integration**. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
