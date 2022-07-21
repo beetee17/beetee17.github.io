@@ -4,19 +4,7 @@ title: "beetee17.github.io" # the name of your site, e.g. ACME Corp.
 markdown: GFM
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      remote_theme: remote_theme:pages-themes/cayman@v0.2.0
-  -
-    scope:
-      path: "index.md"
-    values:
-      remote_theme: remote_theme:pages-themes/cayman@v0.2.0
+remote_theme: remote_theme:pages-themes/cayman@v0.2.0
       
   
 
