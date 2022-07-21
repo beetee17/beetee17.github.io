@@ -4,7 +4,8 @@
 
 # Brandon Thio
 
-**Email:** brandon.thio@yahoo.com.sg 
+**Email:** [brandon.thio@yahoo.com.sg](mailto:brandon.thio@yahoo.com.sg)  
+
 **Instagram:** Instagram: @brandonthio_
 
 ## Projects
@@ -17,5 +18,4 @@
 
 ### [Wordle](https://apps.apple.com/us/app/wordsmith-guess-the-word/id1608476770)
 
-</body>
 
