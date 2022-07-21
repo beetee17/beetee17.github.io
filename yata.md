@@ -2,7 +2,9 @@
 
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)
 
-![Demo Gif](/docs/assets/yata/Onboarding.gif)
+
+<img src="https://beetee17.github.io/docs/assets/yata/Onboarding.gif" width="200">
+
 
 > What is important is seldom urgent and what is urgent is seldom important. 
 > - Dwight Eisenhower
