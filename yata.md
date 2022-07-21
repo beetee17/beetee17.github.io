@@ -8,7 +8,10 @@ date modified: Wednesday, July 20th 2022, 9:50:13 pm
 
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)
 
-> What is important is seldom urgent and what is urgent is seldom important. - [[Dwight Eisenhower]]
+![](assets/yata/Onboarding.gif)
+
+> What is important is seldom urgent and what is urgent is seldom important. 
+> - Dwight Eisenhower
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
