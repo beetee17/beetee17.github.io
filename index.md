@@ -1,7 +1,3 @@
-<head>
-    <title>Brandon Thio</title>
-</head>
-
 # Brandon Thio
 
 **Email:** [brandon.thio@yahoo.com.sg](mailto:brandon.thio@yahoo.com.sg)  
