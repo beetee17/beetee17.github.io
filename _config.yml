@@ -9,13 +9,14 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
       remote_theme: remote_theme:pages-themes/cayman@v0.2.0
   -
     scope:
       path: "index.html"
     values:
-      remote_theme: pages-themes/minimal@v0.2.0
+      remote_theme: remote_theme:pages-themes/cayman@v0.2.0
       
   
 
