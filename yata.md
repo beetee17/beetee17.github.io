@@ -20,7 +20,7 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 - **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as tags, lists, projects, areas and sub-tasks. Find out more via the detailed tutorial screen!
 
-- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can filter tasks by their deadline, urgency, [tag](https://beetee17.github.io/yata/tags), [list](https://beetee17.github.io/yata/lists), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas), or any combination of those attributes. 
+- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can filter tasks by their deadline, urgency, [tags](https://beetee17.github.io/yata/tags), [list](https://beetee17.github.io/yata/lists), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas), or any combination of those attributes. 
 
 - **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for **natural language dates**, allowing you to set due dates inline. 
 
