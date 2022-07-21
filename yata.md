@@ -1,14 +1,8 @@
----
-aliases: []
-tags: [project]
-date created: Monday, July 4th 2022, 3:08:10 pm
-date modified: Wednesday, July 20th 2022, 9:50:13 pm
----
 # Yata: Yet Another To-Do App
 
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)
 
-![Demo Gif](beetee17.github.io/assets/yata/Onboarding.gif)
+![Demo Gif](/beetee17.github.io/assets/yata/Onboarding.gif)
 
 ![Test](assets/overframe-window.png)
 
@@ -17,15 +11,15 @@ date modified: Wednesday, July 20th 2022, 9:50:13 pm
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
-Main Features:
-- iCloud Integration. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
-- Daily Planner. Yata deeply integrates with your device's calendar, allowing you to schedule pomodoro-style time blocks for your tasks in seconds.
-- Eisenhower Matrix. Combat the mere-urgency effect and maximise the amount of time spent on tasks that are important to you.
-- Flexible Organisation System. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as tags, lists, projects, areas and sub-tasks. Find out more via the detailed tutorial screen!
-- Powerful Task Filtering. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can view tasks by their deadline, urgency, tag, list, project, area, or any combination of those attributes. 
-- Quick Add allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for natural language dates, allowing you to set due dates inline. 
+### Main Features
+- **iCloud Integration**. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
+- **Daily Planner**. Yata deeply integrates with your device's calendar, allowing you to schedule pomodoro-style time blocks for your tasks in seconds.
+- **Eisenhower Matrix**. Combat the mere-urgency effect and maximise the amount of time spent on tasks that are important to you.
+- **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as tags, lists, projects, areas and sub-tasks. Find out more via the detailed tutorial screen!
+- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can view tasks by their deadline, urgency, tag, list, project, area, or any combination of those attributes. 
+- **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for natural language dates, allowing you to set due dates inline. 
 
-Other Features:
+### Other Features
 - Recurring tasks
 - Upload and view attachments to a task
 - Edit tasks in bulk
