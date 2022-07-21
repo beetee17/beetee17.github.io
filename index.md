@@ -6,7 +6,7 @@
 
 **Email:** [brandon.thio@yahoo.com.sg](mailto:brandon.thio@yahoo.com.sg)  
 
-**Instagram:** Instagram: @brandonthio_
+**Instagram:** @brandonthio_
 
 ## Projects
 
