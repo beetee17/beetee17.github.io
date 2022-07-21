@@ -8,16 +8,21 @@
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
 
-<img src="https://beetee17.github.io/docs/assets/yata/OverallDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/YataDemoGifs/OverallDemo.gif" width="200">
 
 
 ### Main Features
 - **iCloud Integration**. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
+
 - **Daily Planner**. Yata deeply integrates with your device's calendar, allowing you to schedule pomodoro-style time blocks for your tasks in seconds.
+
 - **Eisenhower Matrix**. Combat the mere-urgency effect and maximise the amount of time spent on tasks that are important to you.
+
 - **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as tags, lists, projects, areas and sub-tasks. Find out more via the detailed tutorial screen!
-- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can view tasks by their deadline, urgency, tag, list, project, area, or any combination of those attributes. 
-- **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for natural language dates, allowing you to set due dates inline. 
+
+- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can filter tasks by their deadline, urgency, [tag](https://beetee17.github.io/yata/tags), [list](https://beetee17.github.io/yata/lists), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas), or any combination of those attributes. 
+
+- **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for **natural language dates**, allowing you to set due dates inline. 
 
 ### Other Features
 - Recurring tasks
@@ -28,10 +33,6 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - List view as an alternative to the matrix layout for smaller devices. 
 
 # Changelog
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Coming Soon]
 - Custom ordering of areas and tags
@@ -41,6 +42,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Scratch pad upgrades (Make it behave similar to the iOS Notes app)
 - Habit Tracker
 - Pomodoro Timer
+
+
+## [0.3.0 (4)] - 2022-07-21
+### Added
+
+### Changed
+- Clear filters selection button is shown when at least one filter is selected
+
+### Fixed
+- Project filter was not clearing when tapping the clear selection button
+
 
 ## [0.3.0 (3)] - 2022-07-20
 ### Added
