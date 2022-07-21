@@ -4,7 +4,7 @@
 
 ![Demo Gif](/beetee17.github.io/assets/yata/Onboarding.gif)
 
-![Test](assets/overframe-window.png)
+![Test](/assets/overframe-window.png)
 
 > What is important is seldom urgent and what is urgent is seldom important. 
 > - Dwight Eisenhower
