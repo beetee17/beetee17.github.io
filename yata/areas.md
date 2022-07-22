@@ -6,4 +6,4 @@ Areas are useful to group projects or tasks into specific categories. Doing so a
 
 Create or edit areas from the filters menu. You can even assign a unique coloured icon to each area from eaasier visual identification.
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo@3x.gif" width="200">

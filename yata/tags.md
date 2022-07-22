@@ -6,4 +6,4 @@ Tags are useful to group task into broad categories, and as an alternative to Ar
 
 Create or edit tags from the filters menu. You can also assign a unique colour to your tags for easier visual identification!
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateTagDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateTagDemo@3x.gif" width="200">
