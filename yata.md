@@ -2,8 +2,7 @@
 
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)  
 
-> What is important is seldom urgent and what is urgent is seldom important. 
-> Dwight Eisenhower
+> What is important is seldom urgent, and what is urgent is seldom important. - Dwight Eisenhower
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
@@ -50,6 +49,17 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Scratch pad upgrades (Make it behave similar to the iOS Notes app)
 - Habit Tracker
 - Pomodoro Timer
+
+## [0.3.0 (5)] - 2022-07-22
+### Added
+- Allow tapping on page indicator to change page
+- Add setting to increase size of page indicator
+- Add more default filters (hidden by default):
+  - Filter tasks by whether they have file attachments 
+  - Filter tasks by whether they have url links in their notes content
+
+### Changed
+- Improved link detection, previously was not detecting links such as google.com, www.google.com
 
 
 ## [0.3.0 (4)] - 2022-07-21
