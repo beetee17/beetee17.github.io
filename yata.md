@@ -10,7 +10,9 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 <img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png">
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/OverallDemo.gif" width="200">
+<p align="center">
+	<img src="https://beetee17.github.io/docs/assets/Yata/gifs/OverallDemo.gif" width="200">
+</p>
 
 
 ### Main Features
