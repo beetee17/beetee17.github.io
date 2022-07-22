@@ -8,7 +8,7 @@
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
 
-<img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png">
 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/OverallDemo.gif" width="200">
 
