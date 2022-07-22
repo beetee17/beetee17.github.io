@@ -6,4 +6,4 @@ Projects are useful to group related tasks that share the same end goal. Doing s
 
 Create or edit projects from the filters menu. Quickly organise your projects into areas with a drag and drop gesture
 
-<img src="https://beetee17.github.io/docs/assets/YataDemoGifs/CreateProjectDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateProjectDemo.gif" width="200">

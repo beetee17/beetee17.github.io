@@ -8,4 +8,4 @@ Similar to areas, each task can only be in a single list. We may think of these 
 
 In Yata, it is easy to perform review sessions and move tasks from one list to another in bulk via the edit mode.
 
-<img src="https://beetee17.github.io/docs/assets/YataDemoGifs/BulkMoveDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/BulkMoveDemo.gif" width="200">

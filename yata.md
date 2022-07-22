@@ -3,12 +3,14 @@
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)  
 
 > What is important is seldom urgent and what is urgent is seldom important. 
-> - Dwight Eisenhower
+> Dwight Eisenhower
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
 
-<img src="https://beetee17.github.io/docs/assets/YataDemoGifs/OverallDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png" width="200">
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/OverallDemo.gif" width="200">
 
 
 ### Main Features
@@ -35,9 +37,12 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 # Changelog
 
+## [Known Issues]
+- Tutorial gifs are not up to date
+
 ## [Coming Soon]
 - Custom ordering of areas and tags
-- Add Projects which are completable collections of tasks
+- More default filters (todos with attachments, todos with links)
 
 ## [Someday]
 - Scratch pad upgrades (Make it behave similar to the iOS Notes app)
@@ -46,14 +51,14 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 
 ## [0.3.0 (4)] - 2022-07-21
-### Added
-
 ### Changed
 - Clear filters selection button is shown when at least one filter is selected
+- Rearrange filters section
+- Change default project color
 
 ### Fixed
 - Project filter was not clearing when tapping the clear selection button
-
+- Infinite looping glitch when todos had the same attributes
 
 ## [0.3.0 (3)] - 2022-07-20
 ### Added

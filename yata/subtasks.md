@@ -9,4 +9,4 @@ Moreover, by breaking down a task into smaller steps, you can visualise your com
 Create or edit subtasks of a todo via the detail view that is presented when tapping on the plus-icon or any existing todo. You can  also make exisiting tasks be subtasks as shown below.
 
 
-<img src="https://beetee17.github.io/docs/assets/YataDemoGifs/SubtasksDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtasksDemo.gif" width="200">
