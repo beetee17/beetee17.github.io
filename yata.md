@@ -43,12 +43,25 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 ## [Coming Soon]
 - Custom ordering of areas and tags
-- More default filters (todos with attachments, todos with links)
 
 ## [Someday]
 - Scratch pad upgrades (Make it behave similar to the iOS Notes app)
 - Habit Tracker
 - Pomodoro Timer
+
+
+## [0.3.0 (6)] - 2022-07-22
+
+### Changed
+- Change due date button to calendar icon, and today list icon to a star
+- Hide quick add selector buttons if there are no options to select
+- Move tags section to the bottom of filters view
+- Only show all filters in edit mode when user expresses intent.
+- Only show clear selection button when not editing
+- Chang onboarding flow to show all views
+
+### Removed
+- Remove menu button from note view, users should not be able to enter edit mode from scratch pad
 
 ## [0.3.0 (5)] - 2022-07-22
 ### Added
