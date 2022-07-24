@@ -50,7 +50,23 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Pomodoro Timer
 
 
-## [0.3.0 (6)] - 2022-07-22
+## [0.3.0 (7)] - 2022-07-24
+
+### Changed
+- Disable edit mode when filters menu is dismissed
+- Change the default behaviour to sort by completion date when filtering by completed tasks
+- Calendar events do not split into two columns if they are immediately consecutive
+- Remove more words that were being parsed as dates e.g. "vie", "fr", "mo"
+- Add slight shadow to main view that overlays the filters menu
+- Setting of overdue dates is now allowed
+- Bias the parsed date to be a future date. For example, typing "mar" would be inferred as March 1st, 2023 rather than March 1st, 2022
+- Projects and Tags filter sections are now collapsible
+- Add buttons for projects, areas and tags are hidden unless editing (need to update tutorial gifs)
+
+### Fixed
+- Fix parsed date was highlighting the wrong range of text
+
+## [0.3.0 (6)] - 2022-07-23
 
 ### Changed
 - Change due date button to calendar icon, and today list icon to a star
