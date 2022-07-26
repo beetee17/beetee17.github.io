@@ -49,6 +49,36 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.3.0 (8)] - 2022-07-26
+### Added
+- Push notifications! Notifications are sent at a task's due date/time if it is set. If only a due date is specified, the notification will trigger at 9am (will be customisable in the future).
+- Intent dates! Intent dates allow users to schedule a task to automatically move to the Today list at a specified date, whilst keeping this separate from the task's due date. This feature is OFF by default and can be enabled via the settings screen.
+- Ability to specify due date AND time for task
+- Options to automatically move tasks to Today list depending on due date (this behaviour is turned ON by default, and can be disabled in the settings screen)
+- Persist the collapsed states for tags and projects filters section
+- Add content to GTD lists onboarding
+
+### Changed
+- Changed the colour of the settings screen's top bar
+- The filters menu now stretches when drag gesture over-shoots
+- The filters menu now takes up slightly more space
+- Modifying parent Eisenhower status now also modifies its subtasks' statuses
+- Selecting the current todo list as a filter should not deselect it
+- If no filter is selected, quick add applies the last used setting
+- Prettified the due date sections in the task detail view
+- Prettified the onboarding screens
+- The collapse arrows in the filters menu is now hidden when there is nothing to show.
+
+
+### Removed
+- Removed the new project rows from the areas section. Users can use drag and drop to move a project into an area.
+- Removed redundant word 'todo' from the context menu action labels
+
+
+### Fixed
+- Fix todo sometimes marking as completed even when in edit mode
+- Fix crash when discarding changes from quick todo detail
+
 
 ## [0.3.0 (7)] - 2022-07-24
 
