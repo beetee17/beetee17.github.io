@@ -49,6 +49,27 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.3.0 (9)] - 2022-07-27
+### Added
+- Intent durations. Setting an intended duration for a task means that when dragging it onto the calendar, the created event will automatically be set to that duration.
+- Add a button that moves a todo to the selected list via the context menu
+
+### Changed
+- Updated the App Icon (draft)
+- Updated the animation when completing a todo
+- Reduce padding around show details button as due date text occasionally overflows
+- Standardise UI and UX for todo recurrence picker
+- Make notes editor dynamically size to fit text
+- Change black background of detail view to dark gray
+- Only show recurrence option if todo has due date
+- Change time picker to show 5 minute intervals
+
+### Fixed
+- Fix: todo details sometimes not saving
+- Fix: time picker icon was gray when no time was selected. It should always be blue
+- Fix: context menu actions were not animating
+
+
 ## [0.3.0 (8)] - 2022-07-26
 ### Added
 - Push notifications! Notifications are sent at a task's due date/time if it is set. If only a due date is specified, the notification will trigger at 9am (will be customisable in the future).
