@@ -49,6 +49,26 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.3.0 (10)] - 2022-07-29
+### Added
+- Major UI changes to the todo detail view
+- Smoother animations overall, especially when deleting todos or performing actions from the context menu
+- Significanlty improved Natural language parser. It now infers duration, intent dates, due dates and due times. 
+  - For example, try "Do assignment tomorrow at 4pm for two hours" or "Do assignment for two hours due in two days at 4pm"
+- Ability to set an estimated duration for a task. This duration is used when scheduling tasks as Calendar events.
+- "Do Today" and "Do Tomorrow" quick actions. 
+  - "Do Today" sets the task's intent date to today, and moves it to the *Today* list.
+  - "Do Tomorrow" sets the task's intent date to tomorrow, and moves it to the *Anytime* list.
+- "Create Event" quick action. Creates a calendar event for the task without drag and drop.
+
+### Changed
+- Allow tasks to be recurring as long as intent date or due date is set 
+
+### Removed
+- Remove setting to toggle intent dates
+- Removed tutorial gifs for debugging purposes
+
+
 ## [0.3.0 (9)] - 2022-07-27
 ### Added
 - Intent durations. Setting an intended duration for a task means that when dragging it onto the calendar, the created event will automatically be set to that duration.
