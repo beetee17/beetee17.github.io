@@ -66,7 +66,7 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 ### Removed
 - Remove setting to toggle intent dates
-- Removed tutorial gifs for debugging purposes
+- Removed tutorial gifs temporarily for debugging purposes
 
 
 ## [0.3.0 (9)] - 2022-07-27
