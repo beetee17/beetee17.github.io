@@ -52,10 +52,16 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 ## [0.3.0 (11)] - 2022-07-29
 ### Added
 - UI improvements to attachments view
+- UI improvements to the quick add date picker
+- Restrict users from creating tasks with empty title
+
+### Changed
+- Updated gifs to higher quality and changed logic of gif playback to debug crashes (likely due to memory leaks)
+- Slightly increased the size of each todo
 
 ### Fixed
 - Fix crash when uploading attachments to a task
-
+- Parser was detecting the correct time but removing the wrong portion of the text
 
 ## [0.3.0 (10)] - 2022-07-29
 ### Added
