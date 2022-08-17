@@ -63,6 +63,11 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Fix crash when uploading attachments to a task
 - Parser was detecting the correct time but removing the wrong portion of the text
 
+## [0.5.0 (1)] - 2022-08-17
+### Added
+- [Yata v2](https://beetee17.github.io/yata2)
+
+
 ## [0.3.0 (10)] - 2022-07-29
 ### Added
 - Major UI changes to the todo detail view
