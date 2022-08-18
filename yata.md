@@ -49,6 +49,21 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+
+## [0.5.0 (2)] - 2022-08-18
+### Added
+- Setting to customise the default landing page of Tasks view
+- Drag handle in calendar view to indicate to users that it is draggable (to toggle between Week and Month views)
+
+### Fixed
+- Attempt to fix issues with adding Calendar events (events were sometimes not saving or saving with incorrect date)
+
+
+## [0.5.0 (1)] - 2022-08-17
+### Added
+- [Yata v2](https://beetee17.github.io/yata2)
+
+
 ## [0.3.0 (11)] - 2022-07-29
 ### Added
 - UI improvements to attachments view
@@ -62,11 +77,6 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 ### Fixed
 - Fix crash when uploading attachments to a task
 - Parser was detecting the correct time but removing the wrong portion of the text
-
-## [0.5.0 (1)] - 2022-08-17
-### Added
-- [Yata v2](https://beetee17.github.io/yata2)
-
 
 ## [0.3.0 (10)] - 2022-07-29
 ### Added
