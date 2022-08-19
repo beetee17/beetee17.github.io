@@ -49,6 +49,24 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.5.0 (4)] - 2022-08-19
+### Added
+- Add settings button to iPad on landscape to allow for access to settings screen
+- Add clear button to textfield in Area detail view.
+
+### Changed
+-  Make textfield and preview icon larger in Area detail view.
+
+### Removed
+-  Removed blank icons from Area detail view.
+-  Revert pinning sections in Completed and Scheduled list as it was causing infinite loop when bulk selecting
+
+### Fixed
+- Attempt to fix various visual glitches (tasks were getting stuck to the top of the screen, forcing user to force quit the app.)
+- Fix settings view appearing to be blank on iPads in Portrait mode
+
+
+
 ## [0.5.0 (3)] - 2022-08-18
 ### Fixed
 - Fix keyboard sometimes remaining on screen after creating todo
