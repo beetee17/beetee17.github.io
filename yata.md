@@ -49,6 +49,46 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+
+## [0.5.0 (8)] - 2022-08-24
+### Added
+- Add Light mode theme! 
+  - Users can switch between dark and light themes in the Settings, or opt for an "Automatic" setting which follows the current device's color scheme
+
+### Changed
+- Change quick add notes keyboard's return key from "Done" to default, as it inserts a new line rather than creating the task
+- Make area icon selection buttons' hit box larger
+- Change area icon selection color to gray
+- Show create button for projects and areas by default
+
+### Fixed
+- Fix quick add not being consistent with inferring current context.
+  - For example, if viewing a project's tasks, quick add should detect this and default the new task to the project. This should work no matter what screen the user navigates to. If the user does not change the default settings, the newly created task should always appear in the current list.
+- Fix unable to edit task title when expanded
+
+
+## [0.5.0 (7)] - 2022-08-22
+### Added
+- Mini detail sheet when selecting tasks in the Upcoming view.
+
+### Changed
+- Simplify subtask to narrow its purpose to creating simple checklists. Now, subtasks do not have the full functionality of a normal task, and instead simply comprise of a title and completion status. Users can utilise projects for more advanced needs. Previously the functionality of projects and subtasks were too similar, which can lead to user confusion.
+
+### Fixed
+- Also fixed a bug introduced in the previous version where creating a task would pop the current view off the navigation stack.
+
+
+## [0.5.0 (6)] - 2022-08-20
+### Fixed
+- Fix bug where area icon was not selecting.
+- Fix visual glitch when navigating between screens after expanding a task.
+
+
+## [0.5.0 (5)] - 2022-08-20
+### Fixed
+- Fix bug with navigation view not responding after navigation
+- Partially fix bug where edit button was not clickable after sheet has been presented
+
 ## [0.5.0 (4)] - 2022-08-19
 ### Added
 - Add settings button to iPad on landscape to allow for access to settings screen
