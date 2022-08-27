@@ -49,6 +49,20 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.5.0 (11)] - 2022-08-27
+### Fixed
+- Fix fatal bug when navigating around the app which was only recoverable by force quitting the app
+- Fix tasks lists were not animating
+
+
+## [0.5.0 (10)] - 2022-08-26
+### Added
+- You can now add notes to areas and projects
+
+### Fixed
+- Bug where text cursor was jumping to the end of text when editing a task's notes
+
+
 ## [0.5.0 (9)] - 2022-08-25
 ### Added
 - Added the ability to manually order areas and tags
