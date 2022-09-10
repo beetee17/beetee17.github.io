@@ -1,3 +1,7 @@
+---
+title: Documentation
+---
+
 # Yata: Yet Another To-Do App
 
 
@@ -123,3 +127,4 @@
 
   </p>
 </details>
+
