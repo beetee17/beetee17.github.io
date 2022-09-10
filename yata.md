@@ -22,7 +22,6 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 ### Other Features
 - Recurring tasks
-- [Subtasking](https://beetee17.github.io/yata/subtasks)
 - Upload and view attachments to a task
 - Edit tasks in bulk
 - Customise the sort order of tasks
