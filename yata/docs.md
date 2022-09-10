@@ -1,7 +1,8 @@
 ---
 title: "Yata: Yet Another To-Do App"
 ---
-* auto-gen TOC:
+
+- TOC
 {:toc}
 
 # Documentation
