@@ -6,7 +6,7 @@ title: "Yata: Yet Another To-Do App"
 
 
 <details>
-  <summary><h2>Overall Structure</h2></summary>
+  <summary><h3>Overall Structure</h3></summary>
   <p>
     
     GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: **our brains are for having ideas, not storing them**.\\
@@ -24,7 +24,7 @@ title: "Yata: Yet Another To-Do App"
 </details>
 
 <details>
-  <summary><h2>Intent</h2></summary>
+  <summary><h3>Intent</h3></summary>
   <p>
     
     In Yata, there is a clear separation between a task's intent date (i.e. when you want to work on it), and its due date (i.e. deadline).\\
@@ -43,16 +43,21 @@ title: "Yata: Yet Another To-Do App"
     \\
     Lastly, the **Scheduled** list shows a sorted list of tasks that have a *real* intent date (i.e. not **Anytime** or **Someday**).\\
     \\
+    
     ### Scheduling Tasks
+
     Assigning an intent date to a task is extremely intuitive!\\
     \\
     When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".\\
     \\
-    Natural language can also be used to reschedule a task:  
+
+    Natural language can also be used to reschedule a task:
     - To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
     - To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.\\
     \\
-    ### Notes  
+
+    ### Notes
+
     In the future, Yata aims to add on to this intent feature with the following improvements:  
     - Notifications for intent dates (reminders to start working on a task)  
     - Allow the option to automatically schedule due tasks for Today.  
@@ -61,7 +66,7 @@ title: "Yata: Yet Another To-Do App"
 </details>
 
 <details>
-  <summary><h2>Subtasks</h2></summary>
+  <summary><h3>Subtasks</h3></summary>
   <p>
     
     Most tasks are not well-represented as a single step, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.\\
@@ -71,26 +76,26 @@ title: "Yata: Yet Another To-Do App"
     Moreover, by breaking down a task into smaller steps, you can visualise your completion progress as a continuous value rather than single binary value!\\
     \\
     Create or edit subtasks of a todo via the detail view that is presented when tapping on the *more* button on any existing todo.
-    
+
   </p>
 </details>
 
 
 <details>
-  <summary><h2>Tags</h2></summary>
+  <summary><h3>Tags</h3></summary>
   <p>
     
     Tags function as 'soft' links between tasks. A task can have multiple tags.\\
     \\
     Tags are useful to group task into broad categories, and as an alternative to Areas when a task fits into more than one category.\\
     \\
-    Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.\\
-    \\
+    Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.
+    
   </p>
 </details>
 
 <details>
-  <summary><h2>Projects</h2></summary>
+  <summary><h3>Projects</h3></summary>
   <p>
     
     Projects are completable collections of tasks.\\
@@ -106,7 +111,7 @@ title: "Yata: Yet Another To-Do App"
 
 
 <details>
-  <summary><h2>Areas</h2></summary>
+  <summary><h3>Areas</h3></summary>
   <p>
     
     Areas are collections of projects and tasks.\\
