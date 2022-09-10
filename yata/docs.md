@@ -1,98 +1,89 @@
-# deepchar
+---
+title: "Yata: Yet Another To-Do App"
+---
 
-[github.com/deepchar](https://github.com/deepchar) *Transliteration with sequence-to-sequence models and transfer learning*
+# Documentation
 
-<details><summary><strong>About transliteration</strong></summary>
 
-About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Persian, Hebrew, Chinese, Korean, Japanese, Greek, Armenian, Georgian, Mongolian, Hindi and Tamil.  Very often, they haphazardly use the Latin alphabet to write those languages.
+### Overall Structure
 
-`Привет` => `Privet` , `Privyet`, `Priwjet`, ...  
-`كيف حالك` => `kayf halk`, `keyf 7alek`, ...  
-`Բարև Ձեզ` => `Barev Dzez`, `Barew Dzez`, ...  
-`ხაჭაპური` => `xachapuri`, ...
+GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: **our brains are for having ideas, not storing them**.
 
-So a growing share of user-generated text content is in these "Latinized" or "romanized" formats known as *translit*, *arabizi*, *Greeklish* and so on that are difficult to parse, search or even identify.
+The more information bouncing around inside your head, the harder it is to decide what needs attention. As a result, **you spend more time thinking about your tasks than actually doing them**. When information piles up in your head, it can lead to stress, anxiety, or a loss in focus.
 
-Transliteration is the task of automatically converting this content back into the native canonical format.
+The GTD method describes **how to dump all your mental clutter into an external system and then organize it so you can focus on the right things at the right times**.
 
-`Privet` => `Привет`    
-`Privyet` => `Привет`    
-`Priwjet` => `Привет`  
-...
-`Aydpes aveli sirun e.` => `Այդպես ավելի սիրուն է:`
+When your GTD workflow is set up right, you’ll be able to confidently answer “*what should I be working on?*” at any given moment without worrying that you might forget something important you need to do later.
 
-You can read more about what makes this problem non-trivial at [*Automatic transliteration with LSTM*](http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/) and [*Interpreting neurons in an LSTM network*](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/).
+Yata makes it easy to incorporate a similar workflow, with the **Inbox**, **Scheduled**, **Anytime** and **Someday** lists.
 
-Transliteration can be seen as a special case of *translation*, *style transfer* or *spelling correction*.
+In Yata, a task is shown in the **Inbox** when it does not have an assigned [intent date](https://beetee17.github.io/yata/intent). It is recommended to regularly review your **Inbox** and aim for it to be empty (as you would for emails)!
 
-Therefore deepchar can be used for tasks like translation between Serbian and Croatian or Hindi and Urdu, applying British style to American English.
+### Intent
 
-It can also be used for case correction, punctuation correction and inserting the non-ASCII characters or accent marks for all the languages written in the Latin alphabet - Spanish, French, Italian, German, Turkish and most others - that have non-ASCII characters.  (This task may be called *diacritic restoration*, but *ə*, *œ*, *ß* and *ı* are not diacritics.)
+In Yata, there is a clear separation between a task's intent date (i.e. when you want to work on it), and its due date (i.e. deadline).
 
-Another flavour of this task is transliteration of named entities.  Instead of mapping many inputs to one output (n:1), it maps one input to many outputs (1:n).  You can read more about that in [deepchar/entities](/entities).
+This is because in reality, we tend not to only start working on our tasks at or right before its due date (or at least we try not to). Therefore, having this separation helps you to capture this important distinction, unlike most conventional Todo applications.
 
-</details>
+Moreover, there are two special kinds of intent 'dates' that are separate from real dates. These are the **Anytime** and **Someday** intents. **Anytime** and **Someday** are useful for scheduling tasks in a meaningful way when you do not yet know exactly when you want to do them, instead of arbitrarily assigning a date in order to rid them from the **Inbox**.
 
-### Our approach
+**Anytime** and **Someday** tasks will appear in the **Anytime** and **Someday** lists respectively. Moreover, as implied above, the **Inbox** will not show tasks that are marked for **Anytime** or **Someday**.
 
-Our baseline approach is to train **character-level sequence-to-sequence** models on generated data.
+**Anytime** tasks can be thought of as **“bonus” tasks for the day**. When today’s tasks have been completed ahead of schedule, look into the **Anytime** list for more items to get done.
 
-Besides our modification to character-level, [Sockeye](https://github.com/awslabs/sockeye) and [Fairseq](https://github.com/pytorch/fairseq) are standard modern implementations of sequence-to-sequence, developed primarily for machine *translation* but in principle applicable to a wide range of tasks with sequence input and sequence output
+Another recommended workflow is to review the **Anytime** list at the end of the day and move selected tasks to be tomorrow’s tasks.
 
-Sockeye was developed by AWS Labs on Apache MXNet, and Fairseq was developed by Facebook AI Research on PyTorch.  Fairseq models can be launched and scaled in production with [pytorch/translate](https://github.com/pytorch/translate).
+**Tasks that you want to work on in the future but not right now can be stored in Someday**. For example, books to read, blog post ideas, etc. You can then review these tasks when time and energy permit.
 
-#### Transfer learning
+Lastly, the **Scheduled** list shows a sorted list of tasks that have a *real* intent date (i.e. not **Anytime** or **Someday**).
 
-Universal or languageless models can solve numerous problems when scaling to hundreds of languages.
+### Scheduling Tasks
+Assigning an intent date to a task is extremely intuitive!
 
-From a research perspective, many difficult aspects of the transliteration task - ambiguity, named entities, long-distance dependencies, out-of-distribution data - are similar between two or more languages, so accuracy can be improved for many languages, especially smaller languages.
+When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".
 
-From an engineering perspective, accuracy held equal, it is more practical to launch one model per target language or even one model for all languages, 
 
-From a product perspective, it is also ideal, because in the real world the data even from the same user contains multiple languagese, 
+Natural language can also be used to reschedule a task:
+- To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
+- To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.
 
-Training universal or languageless models requires only a change in datasets or data generation, and more computing power to train each model, but no fundamental change in the neural network architecture.  It can be as simple as adding examples of English sentences.
+<h3>### Notes</h3>
+In the future, Yata aims to add on to this intent feature with the following improvements:  
+- Notifications for intent dates (reminders to start working on a task)  
+- Allow the option to automatically schedule due tasks for Today.  
 
-Read more about the results of transfer learning in **Benchmarks**.
+### Subtasks
 
-#### Semi-supervised learning
+Most tasks are not well-represented as a single step, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
 
-The transliteration problem is characterised by near total lack of parallel data from the real world.  Data generation techniques give us great baseline results, but are skewed from real-world data in obvious and subtle ways.
+Subtasks allow you to overcome this issue and group closely related tasks together. They allow you to break down a task into smaller components.
 
-Can we use *unlabelled* real-world source-side data to generate more realistic parallel data?  Can we use *unlabelled* target-side data to train better models?
+Moreover, by breaking down a task into smaller steps, you can visualise your completion progress as a continuous value rather than single binary value!
 
-#### Adversarial learning
+Create or edit subtasks of a todo via the detail view that is presented when tapping on the *more* button on any existing todo.
 
-In adversarial learning, the training essentially asks to see the output for specific inputs.  Intuition tells us that learning a good transliteration model should actually require very few examples *if they are the right examples*, especially if we have unlabelled data.
+### Tags
 
-Can we train good models on a greatly reduced dataset?  Can we reduce the dataset more optimally?  Can we reduce the dataset even more if we let the model choose to see examples dynamically during training?
+Tags function as 'soft' links between tasks. A task can have multiple tags.
 
-### Datasets
+Tags are useful to group task into broad categories, and as an alternative to Areas when a task fits into more than one category.
 
-Constrained by lack of parallel corpora, and inspired by similar approaches to transliteration and other sequence-to-sequence tasks like grammar correction, we rely primarily on **data generation**.
+Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.
 
-See the [deepchar/data](https://github.com/deepchar/data) repo
+### Projects
 
-### Benchmarks
+Projects are completable collections of tasks.
 
-See the [deepchar/benchmarks](https://github.com/deepchar/benchmarks) repo
+Projects are useful to group related tasks that share the same end goal. Doing so allows you to stay organised and focus on related tasks easily.
 
-### Results
+To create a project, tap on the plus icon in the main menu, located beside the *Projects* section header.
 
-TODO
+You may also group related projects into areas for an extra layer of organisation. To assign a project to an area, swipe left and tap on the *folder* icon.
 
-### References
+### Areas
 
-Sockeye
+Areas are collections of projects and tasks.
 
-> *Sockeye: A Toolkit for Neural Machine Translation* 2017/2018 [arXiv](https://arxiv.org/abs/1712.05690)  
-> Felix Hieber, Tobias Domhan, Michael Denkowski, David Vilar, Artem Sokolov, Ann Clifton and Matt Post  
-> Amazon Web Services Labs
+Areas are useful to group related projects and tasks into specific categories. Doing so allows you to stay organised and focus on related tasks easily.
 
-Fairseq
-
-> *Convolutional Sequence to Sequence Learning* [arXiv](https://arxiv.org/abs/1705.03122)  
-> Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin  
-> Facebook AI Research
-
-See repos like [deepchar/entities](https://github.com/deepchar/entities) for more specific references
+To create an area, tap on the plus icon in the main menu, located beside the *Area* section header.  
