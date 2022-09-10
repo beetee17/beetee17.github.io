@@ -4,14 +4,14 @@ title: "Yata: Yet Another To-Do App"
 
 
 # Documentation
-
+{:.no_toc}
 
 ## Table of Contents
 {:.no_toc}
 - TOC
 {:toc}
 
-## Overall Structure
+### Overall Structure
 
 GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: **our brains are for having ideas, not storing them**.
 
@@ -25,7 +25,7 @@ Yata makes it easy to incorporate a similar workflow, with the **Inbox**, **Sche
 
 In Yata, a task is shown in the **Inbox** when it does not have an assigned [intent date](https://beetee17.github.io/yata/intent). It is recommended to regularly review your **Inbox** and aim for it to be empty (as you would for emails)!
 
-## Intent
+### Intent
 
 In Yata, there is a clear separation between a task's intent date (i.e. when you want to work on it), and its due date (i.e. deadline).
 
@@ -43,7 +43,7 @@ Another recommended workflow is to review the **Anytime** list at the end of the
 
 Lastly, the **Scheduled** list shows a sorted list of tasks that have a *real* intent date (i.e. not **Anytime** or **Someday**).
 
-## Scheduling Tasks
+### Scheduling Tasks
 Assigning an intent date to a task is extremely intuitive!
 
 When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".
@@ -53,12 +53,12 @@ Natural language can also be used to reschedule a task:
 - To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
 - To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.
 
-<h3>## Notes</h3>
+<h3>### Notes</h3>
 In the future, Yata aims to add on to this intent feature with the following improvements:  
 - Notifications for intent dates (reminders to start working on a task)  
 - Allow the option to automatically schedule due tasks for Today.  
 
-## Subtasks
+### Subtasks
 
 Most tasks are not well-represented as a single step, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
 
@@ -68,7 +68,7 @@ Moreover, by breaking down a task into smaller steps, you can visualise your com
 
 Create or edit subtasks of a todo via the detail view that is presented when tapping on the *more* button on any existing todo.
 
-## Tags
+### Tags
 
 Tags function as 'soft' links between tasks. A task can have multiple tags.
 
@@ -76,7 +76,7 @@ Tags are useful to group task into broad categories, and as an alternative to Ar
 
 Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.
 
-## Projects
+### Projects
 
 Projects are completable collections of tasks.
 
@@ -86,7 +86,7 @@ To create a project, tap on the plus icon in the main menu, located beside the *
 
 You may also group related projects into areas for an extra layer of organisation. To assign a project to an area, swipe left and tap on the *folder* icon.
 
-## Areas
+### Areas
 
 Areas are collections of projects and tasks.
 
