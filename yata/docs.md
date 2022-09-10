@@ -2,11 +2,13 @@
 title: "Yata: Yet Another To-Do App"
 ---
 
-- TOC
-{:toc}
 
 # Documentation
 
+
+## Table of Contents
+- TOC
+{:toc}
 
 ### Overall Structure
 
