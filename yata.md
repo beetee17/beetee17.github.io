@@ -2,13 +2,11 @@
 
 [Testflight Link](https://testflight.apple.com/join/pGhH4eRP)  
 
-> What is important is seldom urgent, and what is urgent is seldom important. - Dwight Eisenhower
-
-Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
+Yata is a to-do app that combines both task management and daily planning into a powerful productivity tool for you to get things done.
 
 [Documentation](https://beetee17.github.io/yata/docs)
 
-<img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png">
+<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
 
 
 ### Main Features
