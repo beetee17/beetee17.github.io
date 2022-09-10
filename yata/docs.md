@@ -6,7 +6,6 @@ title: "Yata: Yet Another To-Do App"
   
 <details>
   <summary><h3>Overall Structure</h3></summary>
-  <p>
     
     GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: **our brains are for having ideas, not storing them**.\\
     \\
@@ -19,7 +18,6 @@ title: "Yata: Yet Another To-Do App"
     Yata makes it easy to incorporate a similar workflow, with the **Inbox**, **Scheduled**, **Anytime** and **Someday** lists.\\
     \\
     In Yata, a task is shown in the **Inbox** when it does not have an assigned [intent date](https://beetee17.github.io/yata/intent). It is recommended to regularly review your **Inbox** and aim for it to be empty (as you would for emails)!
-  </p>
 </details>
 
 <details>
