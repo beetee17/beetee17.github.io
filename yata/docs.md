@@ -2,8 +2,6 @@
 
 [github.com/deepchar](https://github.com/deepchar) *Transliteration with sequence-to-sequence models and transfer learning*
 
-<img src="/favicon.ico" align="left"/>
-
 <details><summary><strong>About transliteration</strong></summary>
 
 About half of the billions of internet users speak languages written in non-Latin alphabets, like Russian, Arabic, Persian, Hebrew, Chinese, Korean, Japanese, Greek, Armenian, Georgian, Mongolian, Hindi and Tamil.  Very often, they haphazardly use the Latin alphabet to write those languages.
