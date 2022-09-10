@@ -4,7 +4,6 @@ title: "Yata: Yet Another To-Do App"
 
 # Documentation
 
-
 <details>
   <summary><h3>Overall Structure</h3></summary>
   <p>
@@ -42,10 +41,8 @@ title: "Yata: Yet Another To-Do App"
     **Tasks that you want to work on in the future but not right now can be stored in Someday**. For example, books to read, blog post ideas, etc. You can then review these tasks when time and energy permit.\\
     \\
     Lastly, the **Scheduled** list shows a sorted list of tasks that have a *real* intent date (i.e. not **Anytime** or **Someday**).\\
-    \\
     
     ### Scheduling Tasks
-
     Assigning an intent date to a task is extremely intuitive!\\
     \\
     When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".\\
@@ -54,10 +51,8 @@ title: "Yata: Yet Another To-Do App"
     Natural language can also be used to reschedule a task:
     - To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
     - To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.\\
-    \\
 
-    ### Notes
-
+    <h3>### Notes</h3>
     In the future, Yata aims to add on to this intent feature with the following improvements:  
     - Notifications for intent dates (reminders to start working on a task)  
     - Allow the option to automatically schedule due tasks for Today.  
@@ -90,7 +85,7 @@ title: "Yata: Yet Another To-Do App"
     Tags are useful to group task into broad categories, and as an alternative to Areas when a task fits into more than one category.\\
     \\
     Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.
-    
+
   </p>
 </details>
 
