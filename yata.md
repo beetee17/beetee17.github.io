@@ -24,6 +24,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Edit tasks in bulk
 - Customise the sort order of tasks
 - Search tasks by the contents of their title and notes
+- Light and Dark Themes
 
 # Changelog
 
