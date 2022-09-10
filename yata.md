@@ -6,12 +6,9 @@
 
 Yata is a to-do app that inspired by a variety of task management systems/philosophies, including the Eisenhower Matrix, Pomodoro method, and Time-boxing.
 
+[Documentation](https://beetee17.github.io/yata/docs)
 
 <img src="https://beetee17.github.io/docs/assets/Yata/images/YataScreenshot.png">
-
-<p align="center">
-	<img src="https://beetee17.github.io/docs/assets/Yata/gifs/OverallDemo.gif" width="200">
-</p>
 
 
 ### Main Features
@@ -19,22 +16,17 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 
 - **Daily Planner**. Yata deeply integrates with your device's calendar, allowing you to schedule pomodoro-style time blocks for your tasks in seconds.
 
-- **Eisenhower Matrix**. Combat the mere-urgency effect and maximise the amount of time spent on tasks that are important to you.
+- **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as [subtasking](https://beetee17.github.io/yata/subtasks), [tags](https://beetee17.github.io/yata/tags), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas). 
 
-- **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as [tags](https://beetee17.github.io/yata/tags), [list](https://beetee17.github.io/yata/lists), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas). Find out more in the app's detailed tutorial screen!
-
-- **Powerful Task Filtering**. Focus on the tasks that matter to you in the moment and avoid getting distracted by the clutter of irrelevant tasks. You can filter tasks by their deadline, urgency, [tags](https://beetee17.github.io/yata/tags), [list](https://beetee17.github.io/yata/lists), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas), or any combination of those attributes. 
-
-- **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your currently applied filter combination. There is also support for **natural language dates**, allowing you to set due dates inline. 
+- **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your current location within the app. There is also support for **natural language dates**, allowing you to schedule tasks inline. 
 
 ### Other Features
 - Recurring tasks
 - [Subtasking](https://beetee17.github.io/yata/subtasks)
 - Upload and view attachments to a task
-- [Edit tasks in bulk](https://beetee17.github.io/yata/lists)
+- Edit tasks in bulk
 - Customise the sort order of tasks
 - Search tasks by the contents of their title and notes
-- List view as an alternative to the matrix layout for smaller devices. 
 
 # Changelog
 
@@ -49,10 +41,29 @@ Yata is a to-do app that inspired by a variety of task management systems/philos
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.5.0 (12)] - 2022-08-31
+### Changed
+- Add icons beside task list titles. Therefore, now intent indicators are hidden in anytime and someday views
+
+### Fixed
+- Fix bulk select bottom bar starting in the wrong position.
+- Improve stability of area/project notes view (still requires further improvements).
+
+
 ## [0.5.0 (11)] - 2022-08-27
+### Added
+- Add placeholder to area tasks list if it is empty
+
+### Changed
+- Flag tasks that are due tomorrow as well. (Might make this a customisable setting)
+- Exclude parsing {some digit}: as a date. For example, Watch Lecture 9: Title would be parsed as 9am due to the 9:
+
 ### Fixed
 - Fix fatal bug when navigating around the app which was only recoverable by force quitting the app
 - Fix tasks lists were not animating
+- Fix task notes text cursor jumping to the end (was not actually fixed in the previous version)
+- Fix quick add tag selector not dismissing when quick add dismisses
+- Reset tapped tags when selector is dismissed
 
 
 ## [0.5.0 (10)] - 2022-08-26

@@ -6,7 +6,4 @@ Subtasks allow you to overcome this issue and group closely related tasks togeth
 
 Moreover, by breaking down a task into smaller steps, you can visualise your completion progress as a continuous value rather than single binary value!
 
-Create or edit subtasks of a todo via the detail view that is presented when tapping on the plus-icon or any existing todo. You can  also make exisiting tasks be subtasks as shown below.
-
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtasksDemo@3x.gif" width="200">
+Create or edit subtasks of a todo via the detail view that is presented when tapping on the *more* button on any existing todo.
