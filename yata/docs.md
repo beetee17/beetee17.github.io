@@ -4,6 +4,12 @@ title: "Yata: Yet Another To-Do App"
 
 # Documentation
 
+### Scheduling Tasks
+Assigning an intent date to a task is extremely intuitive!\\
+\\
+When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".\\
+\\
+  
 <details>
   <summary><h3>Overall Structure</h3></summary>
   <p>
