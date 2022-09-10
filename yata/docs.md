@@ -1,8 +1,8 @@
 ---
-title: Documentation
+title: Yata: Yet Another To-Do App
 ---
 
-# Yata: Yet Another To-Do App
+# Documentation
 
 
 <details>
