@@ -104,13 +104,27 @@
   <li>Pomodoro Timer</li>
 </ul>
 
-<h2 id="050-12---2022-08-31">[0.5.0 (12)] - 2022-08-31</h2>
+<h2 id="050-13---2022-09-14">[0.5.0 (13)] - 2022-09-14</h2>
 <h3 id="changed">Changed</h3>
+<ul>
+  <li>Hide intent indicators for Scheduled tasks list</li>
+  <li>Replaced tutorial screen with simple introduction with link to online documentation (will be enhanced closer to production)</li>
+</ul>
+
+<h3 id="fixed">Fixed</h3>
+<ul>
+  <li>Fixed bug where user was unable to edit or delete recurring events (changes were not being saved)</li>
+  <li>Fix quick add not ignoring certain patterns such as “11a”, “11:”</li>
+  <li>Numerous under-the-hood improvements</li>
+</ul>
+
+<h2 id="050-12---2022-08-31">[0.5.0 (12)] - 2022-08-31</h2>
+<h3 id="changed-1">Changed</h3>
 <ul>
   <li>Add icons beside task list titles. Therefore, now intent indicators are hidden in anytime and someday views</li>
 </ul>
 
-<h3 id="fixed">Fixed</h3>
+<h3 id="fixed-1">Fixed</h3>
 <ul>
   <li>Fix bulk select bottom bar starting in the wrong position.</li>
   <li>Improve stability of area/project notes view (still requires further improvements).</li>
@@ -122,13 +136,13 @@
   <li>Add placeholder to area tasks list if it is empty</li>
 </ul>
 
-<h3 id="changed-1">Changed</h3>
+<h3 id="changed-2">Changed</h3>
 <ul>
   <li>Flag tasks that are due tomorrow as well. (Might make this a customisable setting)</li>
   <li>Exclude parsing {some digit}: as a date. For example, Watch Lecture 9: Title would be parsed as 9am due to the 9:</li>
 </ul>
 
-<h3 id="fixed-1">Fixed</h3>
+<h3 id="fixed-2">Fixed</h3>
 <ul>
   <li>Fix fatal bug when navigating around the app which was only recoverable by force quitting the app</li>
   <li>Fix tasks lists were not animating</li>
@@ -143,7 +157,7 @@
   <li>You can now add notes to areas and projects</li>
 </ul>
 
-<h3 id="fixed-2">Fixed</h3>
+<h3 id="fixed-3">Fixed</h3>
 <ul>
   <li>Bug where text cursor was jumping to the end of text when editing a task’s notes</li>
 </ul>
@@ -165,7 +179,7 @@
   </li>
 </ul>
 
-<h3 id="changed-2">Changed</h3>
+<h3 id="changed-3">Changed</h3>
 <ul>
   <li>Change quick add notes keyboard’s return key from “Done” to default, as it inserts a new line rather than creating the task</li>
   <li>Make area icon selection buttons’ hit box larger</li>
@@ -173,7 +187,7 @@
   <li>Show create button for projects and areas by default</li>
 </ul>
 
-<h3 id="fixed-3">Fixed</h3>
+<h3 id="fixed-4">Fixed</h3>
 <ul>
   <li>Fix quick add not being consistent with inferring current context.
     <ul>
@@ -189,25 +203,25 @@
   <li>Mini detail sheet when selecting tasks in the Upcoming view.</li>
 </ul>
 
-<h3 id="changed-3">Changed</h3>
+<h3 id="changed-4">Changed</h3>
 <ul>
   <li>Simplify subtask to narrow its purpose to creating simple checklists. Now, subtasks do not have the full functionality of a normal task, and instead simply comprise of a title and completion status. Users can utilise projects for more advanced needs. Previously the functionality of projects and subtasks were too similar, which can lead to user confusion.</li>
 </ul>
 
-<h3 id="fixed-4">Fixed</h3>
+<h3 id="fixed-5">Fixed</h3>
 <ul>
   <li>Also fixed a bug introduced in the previous version where creating a task would pop the current view off the navigation stack.</li>
 </ul>
 
 <h2 id="050-6---2022-08-20">[0.5.0 (6)] - 2022-08-20</h2>
-<h3 id="fixed-5">Fixed</h3>
+<h3 id="fixed-6">Fixed</h3>
 <ul>
   <li>Fix bug where area icon was not selecting.</li>
   <li>Fix visual glitch when navigating between screens after expanding a task.</li>
 </ul>
 
 <h2 id="050-5---2022-08-20">[0.5.0 (5)] - 2022-08-20</h2>
-<h3 id="fixed-6">Fixed</h3>
+<h3 id="fixed-7">Fixed</h3>
 <ul>
   <li>Fix bug with navigation view not responding after navigation</li>
   <li>Partially fix bug where edit button was not clickable after sheet has been presented</li>
@@ -220,7 +234,7 @@
   <li>Add clear button to textfield in Area detail view.</li>
 </ul>
 
-<h3 id="changed-4">Changed</h3>
+<h3 id="changed-5">Changed</h3>
 <ul>
   <li>Make textfield and preview icon larger in Area detail view.</li>
 </ul>
@@ -231,14 +245,14 @@
   <li>Revert pinning sections in Completed and Scheduled list as it was causing infinite loop when bulk selecting</li>
 </ul>
 
-<h3 id="fixed-7">Fixed</h3>
+<h3 id="fixed-8">Fixed</h3>
 <ul>
   <li>Attempt to fix various visual glitches (tasks were getting stuck to the top of the screen, forcing user to force quit the app.)</li>
   <li>Fix settings view appearing to be blank on iPads in Portrait mode</li>
 </ul>
 
 <h2 id="050-3---2022-08-18">[0.5.0 (3)] - 2022-08-18</h2>
-<h3 id="fixed-8">Fixed</h3>
+<h3 id="fixed-9">Fixed</h3>
 <ul>
   <li>Fix keyboard sometimes remaining on screen after creating todo</li>
 </ul>
@@ -250,7 +264,7 @@
   <li>Drag handle in calendar view to indicate to users that it is draggable (to toggle between Week and Month views)</li>
 </ul>
 
-<h3 id="fixed-9">Fixed</h3>
+<h3 id="fixed-10">Fixed</h3>
 <ul>
   <li>Attempt to fix issues with adding Calendar events (events were sometimes not saving or saving with incorrect date)</li>
 </ul>
@@ -269,13 +283,13 @@
   <li>Restrict users from creating tasks with empty title</li>
 </ul>
 
-<h3 id="changed-5">Changed</h3>
+<h3 id="changed-6">Changed</h3>
 <ul>
   <li>Updated gifs to higher quality and changed logic of gif playback to debug crashes (likely due to memory leaks)</li>
   <li>Slightly increased the size of each todo</li>
 </ul>
 
-<h3 id="fixed-10">Fixed</h3>
+<h3 id="fixed-11">Fixed</h3>
 <ul>
   <li>Fix crash when uploading attachments to a task</li>
   <li>Parser was detecting the correct time but removing the wrong portion of the text</li>
@@ -301,7 +315,7 @@
   <li>“Create Event” quick action. Creates a calendar event for the task without drag and drop.</li>
 </ul>
 
-<h3 id="changed-6">Changed</h3>
+<h3 id="changed-7">Changed</h3>
 <ul>
   <li>Allow tasks to be recurring as long as intent date or due date is set</li>
 </ul>
@@ -319,7 +333,7 @@
   <li>Add a button that moves a todo to the selected list via the context menu</li>
 </ul>
 
-<h3 id="changed-7">Changed</h3>
+<h3 id="changed-8">Changed</h3>
 <ul>
   <li>Updated the App Icon (draft)</li>
   <li>Updated the animation when completing a todo</li>
@@ -331,7 +345,7 @@
   <li>Change time picker to show 5 minute intervals</li>
 </ul>
 
-<h3 id="fixed-11">Fixed</h3>
+<h3 id="fixed-12">Fixed</h3>
 <ul>
   <li>Fix: todo details sometimes not saving</li>
   <li>Fix: time picker icon was gray when no time was selected. It should always be blue</li>
@@ -349,7 +363,7 @@
   <li>Add content to GTD lists onboarding</li>
 </ul>
 
-<h3 id="changed-8">Changed</h3>
+<h3 id="changed-9">Changed</h3>
 <ul>
   <li>Changed the colour of the settings screen’s top bar</li>
   <li>The filters menu now stretches when drag gesture over-shoots</li>
@@ -368,7 +382,7 @@
   <li>Removed redundant word ‘todo’ from the context menu action labels</li>
 </ul>
 
-<h3 id="fixed-12">Fixed</h3>
+<h3 id="fixed-13">Fixed</h3>
 <ul>
   <li>Fix todo sometimes marking as completed even when in edit mode</li>
   <li>Fix crash when discarding changes from quick todo detail</li>
@@ -376,7 +390,7 @@
 
 <h2 id="030-7---2022-07-24">[0.3.0 (7)] - 2022-07-24</h2>
 
-<h3 id="changed-9">Changed</h3>
+<h3 id="changed-10">Changed</h3>
 <ul>
   <li>Disable edit mode when filters menu is dismissed</li>
   <li>Change the default behaviour to sort by completion date when filtering by completed tasks</li>
@@ -389,14 +403,14 @@
   <li>Add buttons for projects, areas and tags are hidden unless editing (need to update tutorial gifs)</li>
 </ul>
 
-<h3 id="fixed-13">Fixed</h3>
+<h3 id="fixed-14">Fixed</h3>
 <ul>
   <li>Fix parsed date was highlighting the wrong range of text</li>
 </ul>
 
 <h2 id="030-6---2022-07-23">[0.3.0 (6)] - 2022-07-23</h2>
 
-<h3 id="changed-10">Changed</h3>
+<h3 id="changed-11">Changed</h3>
 <ul>
   <li>Change due date button to calendar icon, and today list icon to a star</li>
   <li>Hide quick add selector buttons if there are no options to select</li>
@@ -424,20 +438,20 @@
   </li>
 </ul>
 
-<h3 id="changed-11">Changed</h3>
+<h3 id="changed-12">Changed</h3>
 <ul>
   <li>Improved link detection, previously was not detecting links such as google.com, www.google.com</li>
 </ul>
 
 <h2 id="030-4---2022-07-21">[0.3.0 (4)] - 2022-07-21</h2>
-<h3 id="changed-12">Changed</h3>
+<h3 id="changed-13">Changed</h3>
 <ul>
   <li>Clear filters selection button is shown when at least one filter is selected</li>
   <li>Rearrange filters section</li>
   <li>Change default project color</li>
 </ul>
 
-<h3 id="fixed-14">Fixed</h3>
+<h3 id="fixed-15">Fixed</h3>
 <ul>
   <li>Project filter was not clearing when tapping the clear selection button</li>
   <li>Infinite looping glitch when todos had the same attributes</li>
@@ -452,26 +466,26 @@
   <li>Add back pinch gesture to toggle full screen</li>
 </ul>
 
-<h3 id="changed-13">Changed</h3>
+<h3 id="changed-14">Changed</h3>
 <ul>
   <li>Renamed Projects to Areas</li>
   <li>Projects, are now (completable) collections of todos and subtodos, similar to Things 3</li>
   <li>A todo can belong to either a project or area</li>
 </ul>
 
-<h3 id="fixed-15">Fixed</h3>
+<h3 id="fixed-16">Fixed</h3>
 <ul>
   <li>Crash when deleting a tag when it is currently selected as a filter</li>
 </ul>
 
 <h2 id="030-2---2022-07-19">[0.3.0 (2)] - 2022-07-19</h2>
-<h3 id="changed-14">Changed</h3>
+<h3 id="changed-15">Changed</h3>
 <ul>
   <li>Edit mode is set to inactive after user has finished creating/editing an area</li>
   <li>Change font size and placeholder text for notes input in quick add view</li>
 </ul>
 
-<h3 id="fixed-16">Fixed</h3>
+<h3 id="fixed-17">Fixed</h3>
 <ul>
   <li>Fix bug where area editor was dismissing automatically when keyboard is resigned</li>
 </ul>
@@ -482,7 +496,7 @@
   <li>Ability to add notes to todo from quick add view</li>
 </ul>
 
-<h3 id="changed-15">Changed</h3>
+<h3 id="changed-16">Changed</h3>
 <ul>
   <li>Changed the placeholder text for the quick add task description to one that lets users know they can use natural language to set due dates.</li>
   <li>Renamed Project to Area (may cause exisiting todos to lose information about their projects, apologies :/)</li>
@@ -498,13 +512,13 @@
   <li>Remove extra whitespaces from parsed titles</li>
 </ul>
 
-<h3 id="changed-16">Changed</h3>
+<h3 id="changed-17">Changed</h3>
 <ul>
   <li>Change archive filter to more useful completed filter</li>
   <li>Calendar view scrolls to current time when viewing the current day, but scrolls to the first event when viewing other days</li>
 </ul>
 
-<h3 id="fixed-17">Fixed</h3>
+<h3 id="fixed-18">Fixed</h3>
 <ul>
   <li>Fix project icon not updating on todo card</li>
   <li>Fix visual glitch in project filters: icon rounded edges had a slight grey border</li>
@@ -521,12 +535,12 @@
   <li>Add visual indicators for project and todo list in todo view</li>
 </ul>
 
-<h3 id="changed-17">Changed</h3>
+<h3 id="changed-18">Changed</h3>
 <ul>
   <li>Move due date text to top right and recurring indicator to bottom right</li>
 </ul>
 
-<h3 id="fixed-18">Fixed</h3>
+<h3 id="fixed-19">Fixed</h3>
 <ul>
   <li>Visual glitches with todo title in quick add view when using natural language dates.</li>
   <li>Fix subtodo quick add bug where text field was not focusing properly.</li>
@@ -540,13 +554,13 @@
   <li>Natural language dates parsing in quick add (Experimental)</li>
 </ul>
 
-<h3 id="changed-18">Changed</h3>
+<h3 id="changed-19">Changed</h3>
 <ul>
   <li>Rearrange UI elements in quick add view</li>
   <li>Change quick add cancel button to a save button</li>
 </ul>
 
-<h3 id="fixed-19">Fixed</h3>
+<h3 id="fixed-20">Fixed</h3>
 <ul>
   <li>Visual glitches when todo title was too long in quick add view</li>
 </ul>
@@ -566,7 +580,7 @@
   <li>Add counts to the filter rows. Displays the number of incomplete tasks that have the particular project or tag.</li>
 </ul>
 
-<h3 id="fixed-20">Fixed</h3>
+<h3 id="fixed-21">Fixed</h3>
 <ul>
   <li>Dragging a todo would not scroll to calendar after an event has been created</li>
   <li>Todo notes editor was not highlighting links that have # symbol correctly</li>
@@ -578,7 +592,7 @@
   <li>Keyboard dismiss button for the notes text editor on iPhones</li>
 </ul>
 
-<h3 id="fixed-21">Fixed</h3>
+<h3 id="fixed-22">Fixed</h3>
 <ul>
   <li>Unable to add subtasks</li>
 </ul>
@@ -590,7 +604,7 @@
   <li>Settings button in the matrix view’s menu button. Another way for users to get to the settings screen (it is also in the filters menu)</li>
 </ul>
 
-<h3 id="fixed-22">Fixed</h3>
+<h3 id="fixed-23">Fixed</h3>
 <ul>
   <li>Edit todo button in todo context menu was not working</li>
 </ul>
@@ -608,7 +622,7 @@
 </ul>
 
 <h2 id="020-2---2022-07-12">[0.2.0 (2)] - 2022-07-12</h2>
-<h3 id="fixed-23">Fixed</h3>
+<h3 id="fixed-24">Fixed</h3>
 <ul>
   <li>New todo page was not respecting current todo list filter</li>
   <li>New todo was not being added into the right eisenhower matrix cell</li>
@@ -621,12 +635,12 @@
   <li>Various tutorial pages for tags, projects, lists and subtasks</li>
 </ul>
 
-<h3 id="changed-19">Changed</h3>
+<h3 id="changed-20">Changed</h3>
 <ul>
   <li>Adjusted the padding and icon size of projects in the filter menu</li>
 </ul>
 
-<h3 id="fixed-24">Fixed</h3>
+<h3 id="fixed-25">Fixed</h3>
 <ul>
   <li>Add sub todo button was not responding to taps</li>
   <li>Todos would sometimes loop infinitely while in edit mode</li>
@@ -648,7 +662,7 @@
   <li>Alert on dismissing sheet views when there are unsaved changes</li>
 </ul>
 
-<h3 id="fixed-25">Fixed</h3>
+<h3 id="fixed-26">Fixed</h3>
 <ul>
   <li>Some tasks would behave like they were recurring even if they had no due date set.</li>
   <li>Fix new todo and sub todos not respecting current filter preferences</li>
@@ -664,18 +678,18 @@
   <li>Filter preferences are now saved and synced across devices</li>
 </ul>
 
-<h3 id="changed-20">Changed</h3>
+<h3 id="changed-21">Changed</h3>
 <ul>
   <li>Changed the default behviour of completing subtasks as such: When all subtasks are completed, the parent task is NOT automatically completed</li>
 </ul>
 
-<h3 id="fixed-26">Fixed</h3>
+<h3 id="fixed-27">Fixed</h3>
 <ul>
   <li>Fixed: cannot open settings menu after editing/creating todo</li>
 </ul>
 
 <h2 id="010-6---2022-07-08">[0.1.0 (6)] - 2022-07-08</h2>
-<h3 id="fixed-27">Fixed</h3>
+<h3 id="fixed-28">Fixed</h3>
 <ul>
   <li>Updated the logic for sorting todos. Previous version caused infinite looping when multiple todos were pinned</li>
 </ul>
@@ -687,7 +701,7 @@
 </ul>
 
 <h2 id="010-4---2022-07-08">[0.1.0 (4)] - 2022-07-08</h2>
-<h3 id="fixed-28">Fixed</h3>
+<h3 id="fixed-29">Fixed</h3>
 <ul>
   <li>Fix bug with filtering due to eisenhower status</li>
   <li>Fix visual bug with scroll overflow</li>
@@ -717,7 +731,7 @@
   Note: If you would like to delete multiple todos quickly, long press on the todo and select “Enter Edit Mode”.</li>
 </ul>
 
-<h3 id="changed-21">Changed</h3>
+<h3 id="changed-22">Changed</h3>
 <ul>
   <li>Changed the iPad UI</li>
 </ul>
@@ -727,7 +741,7 @@
   <li>Removed save button in the editing screen (changes are automatically saved when the screen is dismissed)</li>
 </ul>
 
-<h3 id="fixed-29">Fixed</h3>
+<h3 id="fixed-30">Fixed</h3>
 <ul>
   <li>Fixed a bug where some todos required 2 taps to bring up the edit screen
 Thank you for downloading yet another to-do app.</li>
