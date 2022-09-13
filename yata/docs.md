@@ -53,7 +53,8 @@ Natural language can also be used to reschedule a task:
 - To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
 - To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.
 
-<h3>### Notes</h3>
+
+#### Notes
 In the future, Yata aims to add on to this intent feature with the following improvements:  
 - Notifications for intent dates (reminders to start working on a task)  
 - Allow the option to automatically schedule due tasks for Today.  

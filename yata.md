@@ -4,7 +4,7 @@
 
 Yata is a to-do app that combines both task management and daily planning into a powerful productivity tool for you to get things done.
 
-[Documentation](https://beetee17.github.io/yata/docs)
+[Documentation]({{ site.base-url }}/yata/docs)
 
 <img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
 
@@ -14,7 +14,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 
 - **Daily Planner**. Yata deeply integrates with your device's calendar, allowing you to schedule pomodoro-style time blocks for your tasks in seconds.
 
-- **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as [subtasking](https://beetee17.github.io/yata/subtasks), [tags](https://beetee17.github.io/yata/tags), [project](https://beetee17.github.io/yata/projects), [area](https://beetee17.github.io/yata/areas). 
+- **Flexible Organisation System**. Categorise and group tasks in a way that makes most sense to you with as many (or as little) of the provided methods, such as **subtasking**, **tags**, **projects**, **areas**. 
 
 - **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your current location within the app. There is also support for **natural language dates**, allowing you to schedule tasks inline. 
 
@@ -151,7 +151,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 
 ## [0.5.0 (1)] - 2022-08-17
 ### Added
-- [Yata v2](https://beetee17.github.io/yata2)
+- [Yata v2]({{ site.base-url }}/yata2)
 
 
 ## [0.3.0 (11)] - 2022-07-29

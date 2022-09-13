@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Yata: Yet Another To-Do App | beetee17.github.io</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Yata: Yet Another To-Do App" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/yata/docs.html" />
+<meta property="og:url" content="http://localhost:4000/yata/docs.html" />
+<meta property="og:site_name" content="beetee17.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Yata: Yet Another To-Do App" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Yata: Yet Another To-Do App","url":"http://localhost:4000/yata/docs.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=7d1bee984db68ba5f6e2a16ea288b1910c0e76ac">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Yata: Yet Another To-Do App</h1>
+      <h2 class="project-tagline"></h2>
+      
+        <a href="https://github.com/beetee17/beetee17.github.io" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 class="no_toc" id="documentation">Documentation</h1>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#overall-structure" id="markdown-toc-overall-structure">Overall Structure</a></li>
+  <li><a href="#intent" id="markdown-toc-intent">Intent</a></li>
+  <li><a href="#scheduling-tasks" id="markdown-toc-scheduling-tasks">Scheduling Tasks</a>    <ul>
+      <li><a href="#notes" id="markdown-toc-notes">Notes</a></li>
+    </ul>
+  </li>
+  <li><a href="#subtasks" id="markdown-toc-subtasks">Subtasks</a></li>
+  <li><a href="#tags" id="markdown-toc-tags">Tags</a></li>
+  <li><a href="#projects" id="markdown-toc-projects">Projects</a></li>
+  <li><a href="#areas" id="markdown-toc-areas">Areas</a></li>
+</ul>
+
+<h3 id="overall-structure">Overall Structure</h3>
+
+<p>GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: <strong>our brains are for having ideas, not storing them</strong>.</p>
+
+<p>The more information bouncing around inside your head, the harder it is to decide what needs attention. As a result, <strong>you spend more time thinking about your tasks than actually doing them</strong>. When information piles up in your head, it can lead to stress, anxiety, or a loss in focus.</p>
+
+<p>The GTD method describes <strong>how to dump all your mental clutter into an external system and then organize it so you can focus on the right things at the right times</strong>.</p>
+
+<p>When your GTD workflow is set up right, you’ll be able to confidently answer “<em>what should I be working on?</em>” at any given moment without worrying that you might forget something important you need to do later.</p>
+
+<p>Yata makes it easy to incorporate a similar workflow, with the <strong>Inbox</strong>, <strong>Scheduled</strong>, <strong>Anytime</strong> and <strong>Someday</strong> lists.</p>
+
+<p>In Yata, a task is shown in the <strong>Inbox</strong> when it does not have an assigned <a href="https://beetee17.github.io/yata/intent">intent date</a>. It is recommended to regularly review your <strong>Inbox</strong> and aim for it to be empty (as you would for emails)!</p>
+
+<h3 id="intent">Intent</h3>
+
+<p>In Yata, there is a clear separation between a task’s intent date (i.e. when you want to work on it), and its due date (i.e. deadline).</p>
+
+<p>This is because in reality, we tend not to only start working on our tasks at or right before its due date (or at least we try not to). Therefore, having this separation helps you to capture this important distinction, unlike most conventional Todo applications.</p>
+
+<p>Moreover, there are two special kinds of intent ‘dates’ that are separate from real dates. These are the <strong>Anytime</strong> and <strong>Someday</strong> intents. <strong>Anytime</strong> and <strong>Someday</strong> are useful for scheduling tasks in a meaningful way when you do not yet know exactly when you want to do them, instead of arbitrarily assigning a date in order to rid them from the <strong>Inbox</strong>.</p>
+
+<p><strong>Anytime</strong> and <strong>Someday</strong> tasks will appear in the <strong>Anytime</strong> and <strong>Someday</strong> lists respectively. Moreover, as implied above, the <strong>Inbox</strong> will not show tasks that are marked for <strong>Anytime</strong> or <strong>Someday</strong>.</p>
+
+<p><strong>Anytime</strong> tasks can be thought of as <strong>“bonus” tasks for the day</strong>. When today’s tasks have been completed ahead of schedule, look into the <strong>Anytime</strong> list for more items to get done.</p>
+
+<p>Another recommended workflow is to review the <strong>Anytime</strong> list at the end of the day and move selected tasks to be tomorrow’s tasks.</p>
+
+<p><strong>Tasks that you want to work on in the future but not right now can be stored in Someday</strong>. For example, books to read, blog post ideas, etc. You can then review these tasks when time and energy permit.</p>
+
+<p>Lastly, the <strong>Scheduled</strong> list shows a sorted list of tasks that have a <em>real</em> intent date (i.e. not <strong>Anytime</strong> or <strong>Someday</strong>).</p>
+
+<h3 id="scheduling-tasks">Scheduling Tasks</h3>
+<p>Assigning an intent date to a task is extremely intuitive!</p>
+
+<p>When creating a task, simply use natural language to specify the intent date. For example, “Do work on sunday” or “Do work next wednesday at 3pm”.</p>
+
+<p>Natural language can also be used to reschedule a task:</p>
+<ul>
+  <li>To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the <em>Calendar</em> button.</li>
+  <li>To activate the rescheduler in the Upcoming tab, tap on the task’s time, or long press on the task if it does not have a time.</li>
+</ul>
+
+<h4 id="notes">Notes</h4>
+<p>In the future, Yata aims to add on to this intent feature with the following improvements:</p>
+<ul>
+  <li>Notifications for intent dates (reminders to start working on a task)</li>
+  <li>Allow the option to automatically schedule due tasks for Today.</li>
+</ul>
+
+<h3 id="subtasks">Subtasks</h3>
+
+<p>Most tasks are not well-represented as a single step, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.</p>
+
+<p>Subtasks allow you to overcome this issue and group closely related tasks together. They allow you to break down a task into smaller components.</p>
+
+<p>Moreover, by breaking down a task into smaller steps, you can visualise your completion progress as a continuous value rather than single binary value!</p>
+
+<p>Create or edit subtasks of a todo via the detail view that is presented when tapping on the <em>more</em> button on any existing todo.</p>
+
+<h3 id="tags">Tags</h3>
+
+<p>Tags function as ‘soft’ links between tasks. A task can have multiple tags.</p>
+
+<p>Tags are useful to group task into broad categories, and as an alternative to Areas when a task fits into more than one category.</p>
+
+<p>Update a task’s tags by swiping right on a task, and tapping on the <em>Tag</em> button. You can also manage your tags from the menu that is presented.</p>
+
+<h3 id="projects">Projects</h3>
+
+<p>Projects are completable collections of tasks.</p>
+
+<p>Projects are useful to group related tasks that share the same end goal. Doing so allows you to stay organised and focus on related tasks easily.</p>
+
+<p>To create a project, tap on the plus icon in the main menu, located beside the <em>Projects</em> section header.</p>
+
+<p>You may also group related projects into areas for an extra layer of organisation. To assign a project to an area, swipe left and tap on the <em>folder</em> icon.</p>
+
+<h3 id="areas">Areas</h3>
+
+<p>Areas are collections of projects and tasks.</p>
+
+<p>Areas are useful to group related projects and tasks into specific categories. Doing so allows you to stay organised and focus on related tasks easily.</p>
+
+<p>To create an area, tap on the plus icon in the main menu, located beside the <em>Area</em> section header.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/beetee17/beetee17.github.io">beetee17.github.io</a> is maintained by <a href="https://github.com/beetee17">beetee17</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

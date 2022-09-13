@@ -6,7 +6,7 @@
 
 ## Projects
 
-### [Yata: Yet Another To-do App](https://beetee17.github.io/yata)
+### [Yata: Yet Another To-do App]({{ site.base-url }}/yata)
 
 ### [Minutes: Transcribe Anything](https://testflight.apple.com/join/5z25NHwR)
 
