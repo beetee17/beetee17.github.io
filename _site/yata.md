@@ -29,13 +29,12 @@ Yata is a to-do app that combines both task management and daily planning into a
 # Changelog
 
 ## [Known Issues]
-- Tutorial gifs are not up to date
 
 ## [Coming Soon]
-- Custom ordering of areas and tags
+- Notifications for intent date
+- Area / Project indicator below task title
 
-## [Someday]
-- Scratch pad upgrades (Make it behave similar to the iOS Notes app)
+## [Someday / Maybe]
 - Habit Tracker
 - Pomodoro Timer
 
