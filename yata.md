@@ -38,6 +38,13 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.5.0 (14)] - 2022-09-14
+### Added
+- Newly created events will default to the currently selected date.
+
+### Fixed
+- Add back ability to create Calendar events directly.
+  
 ## [0.5.0 (13)] - 2022-09-14
 ### Changed
 - Hide intent indicators for Scheduled tasks list
@@ -48,7 +55,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Fix quick add not ignoring certain patterns such as "11a", "11:"
 - Numerous under-the-hood improvements
 
-## [0.5.0 (12)] - 2022-08-31
+## [0.5.0 (12)] - 2022-09-02
 ### Changed
 - Add icons beside task list titles. Therefore, now intent indicators are hidden in anytime and someday views
 
