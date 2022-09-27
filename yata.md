@@ -31,12 +31,115 @@ Yata is a to-do app that combines both task management and daily planning into a
 ## [Known Issues]
 
 ## [Coming Soon]
-- Notifications for intent date
-- Area / Project indicator below task title
 
 ## [Someday / Maybe]
 - Habit Tracker
 - Pomodoro Timer
+
+## [0.6.0 (7)] - 2022-09-27
+### Added
+- Task Priority System
+  - You can now specify a priority level for a task
+  - Tasks with a higher priority will be moved higher up in the task list! No more pinning tasks to get them to the top of the list
+
+### Fixed
+- Users were unable to reschedule tasks or events in the Upcoming view
+- Intent indicators were not updating visually, even though the task was rescheduled correctly
+- Changes made to tasks in the Upcoming view were not being animated
+- The "Add Subtask" button was not fully tappable
+
+## [0.6.0 (6)] - 2022-09-26
+### Added
+- You can now specify a custom ordering for your subtasks
+- The subtask section's UI is improved with the following changes
+  - The checkmark has been replaced with a checkbox view that is more consistent with the app's UI
+  - Tapping outside of checkbox now does not mark the subtask as complete
+  - The keyboard is automatically activated when creating new subtasks
+- You are now able to share attachments
+- You can now swipe down to dismiss the mini detail view
+- The task's checkbox is now colored depending on the task's project or area color
+
+### Changed
+- Your task's notes are now not copied over when completing them (if they are recurring tasks)
+- You can now see the full title of your tasks in the mini detail view (previously, the title was truncated if it exceeded 2 lines)
+- You can now see more of a task's notes in the mini detail view 
+- You can now reschedule a task via the mini detail view (this replaces the previous action which was to duplicate a task)
+
+### Fixed
+- Fixed the Canvas import functionality not returning all results
+- Fixed some dates not being parsed correctly (e.g. 8am instead of 830am) when creating or rescheduling tasks/events in the Upcoming tab, or in the Scheduled Tasks list
+
+
+## [0.6.0 (4)] - 2022-09-25
+### Fixed
+- Hopefully reverted iCloud duplication issues with the last update
+
+
+## [0.6.0 (3)] - 2022-09-24
+### Added
+- Add basic functionality to manage storage taken up by attachments
+- Tapping on the Tasks tab now navigates to the root view.
+- Tapping on the Upcoming tab now resets the selected date to the current date
+- Added the ability to select/copy task title and notes in mini detail view
+- Added colors to buttons depending on task's area color
+- Added haptic feedback when todo detail view is activated
+
+### Changed
+- Parse dates from the back of text
+  - If there are two dates, the one that occurs latest in the text is parsed
+  - Example: "Do this today or on sunday" will parse as this Sunday instead of Today
+- Increase intensity of haptic feedback when changing dates in calendar
+- Gray out today's events that have past their times and completed tasks
+- Creating new events will now default to the currently selected date
+- Removed the restriction on duplicate project names
+- Show area in project tasks list, and none where appropriate
+
+## [0.6.0 (2)] - 2022-09-23
+### Added
+- Add task count to select all button when bulk editing
+- Add indication of number of selected todos when bulk editing
+
+### Changed
+- Limit subtasks list's height, and make the list scrollable if it exceeds the constrained space
+- Disallow setting of opacity for custom tag and project colors
+- Rename title of canvas tutorial page
+
+### Fixed
+- Fix space taken up by todo notes not being constrained in Upcoming view
+
+
+## [0.6.0 (1)] - 2022-09-23
+### Added
+- Import tasks from Canvas! Mainly applicable to NUS students. 
+  - Allows users to fetch quizzes and assignments from Canvas to be added as tasks into the app. Check it out in the Settings tab.
+- Further improvements to parsing logic
+  - Rescheduling items in daily planner was not respecting selected date
+  - Specifying meridiem was causing the parser to ignore the default date.
+  	- For example, when rescheduling a task that was scheduled for tomorrow, "5am" was parsing as today's 5am, rather than tomorrow's 5am
+
+### Changed
+- Changed the UI of Settings page to fit the app theme
+- Show tasks that were completed on the day in the daily planner.
+Previously, if a task was not scheduled for the day but was marked complete on the day, it would not show up in the daily planner
+
+
+## [0.5.0 (15)] - 2022-09-18
+### DISCALAIMER 
+Apologies for the duplication of data after the recent updates! Unfortunately, upon investigation it seems to be a bug on Apple's side... It occurs due to certain changes in the database that cannot be handled correctly by iCloud (so it duplicates all data as a safeguard). However, as the current state of the app's architecture is relatively mature already, hopefully such changes will not be required in the future!
+
+### Added
+- Show area or project under task title where appropriate
+
+### Changed
+- Deleting areas or projects now also deletes tasks within them.
+- Users are not allowed to create tasks with an empty title
+- Improve parsing logic by prioritising forward dates.
+  - For example, parsing "at 2" when it is 10am should result in 2pm, rather than 2am
+- Reset todos' collapse state when exiting task list
+
+### Fixed
+- Fix todo detail view title text field not aligned with placeholder
+
 
 ## [0.5.0 (14)] - 2022-09-14
 ### Added
