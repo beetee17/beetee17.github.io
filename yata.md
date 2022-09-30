@@ -31,16 +31,38 @@ Yata is a to-do app that combines both task management and daily planning into a
 ## [Known Issues]
 
 ## [Coming Soon]
+- Widgets
 
 ## [Someday / Maybe]
 - Habit Tracker
 - Pomodoro Timer
+- 
+## [0.6.0 (8)] - 2022-09-30
+### Added
+- There is now a slight delay when adding tasks to allow for more UI feedback
+- Added more functionality to the Canvas integration
+  - When selecting an Area to add tasks from a Canvas course, your preferences are now saved between imports
+  - Canvas tasks that have been added will now be hidden initially so they are not re-added by default
+
+### Changed
+- Do not allow rescheduling of read-only events
+- Experimental: Editing the title of a task that is lower down on the list now does not result in the keyboard hiding the text field
+  - However, this means that on non-iOS 16 devices, the text field is limited to a single line. 
+  - On iOS 16 devices, the text field is still expandable but the animations are slightly choppy
+  - Will revert if there is a net cost to UX
+
+### Fixed
+- The background of the Tasks view was partially blacked out in iOS 16
+
 
 ## [0.6.0 (7)] - 2022-09-27
 ### Added
 - Task Priority System
   - You can now specify a priority level for a task
   - Tasks with a higher priority will be moved higher up in the task list! No more pinning tasks to get them to the top of the list
+  - Hide reschedule button for events that are not editable
+- https://stackoverflow.com/questions/4475120/iphone-how-to-detect-if-an-ekevent-instance-can-be-modified
+
 
 ### Fixed
 - Users were unable to reschedule tasks or events in the Upcoming view
