@@ -36,7 +36,22 @@ Yata is a to-do app that combines both task management and daily planning into a
 ## [Someday / Maybe]
 - Habit Tracker
 - Pomodoro Timer
-- 
+
+## [0.6.0 (9)] - 2022-10-02
+### Added
+- Lock screen widgets for iOS 16 users!
+  - You can now view your next upcoming task in your lock screen
+  - More widgets such as those for the home screen are coming soon
+- Improved the UX relating to expanding and collapsing task rows
+  - The app will now automatically scroll to newly created tasks
+  - The app will now automatically scroll to show the task row when the keyboard is activated such that the text field is not hidden
+  - The app will now collapse a task row when user has finished editing
+  - If a row is currently expanded, tapping on any other row will collapse it. Otherwise, the row is expanded as usual
+- Add slight delay to edit task action and dismiss mini detail upon doing so
+
+### Changed
+- Reverted the previous change to the task title text fields
+
 ## [0.6.0 (8)] - 2022-09-30
 ### Added
 - There is now a slight delay when adding tasks to allow for more UI feedback
