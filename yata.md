@@ -37,6 +37,14 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
+
+## [0.6.0 (10)] - 2022-10-02
+### Added
+- Users will now experience haptic feedback when creating a todo or event
+
+### Fixed
+- Fix intermittent crashing on tapping the quick add button
+
 ## [0.6.0 (9)] - 2022-10-02
 ### Added
 - Lock screen widgets for iOS 16 users!
