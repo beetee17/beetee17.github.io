@@ -37,7 +37,63 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
+## [0.7.0 (4)] - 2022-10-24
+### Added
+- Added accessibility support for many UI elements. Most relevant to users that use larger font sizes via Dynamic Type (Settings -> Accessibility -> Larger Text)
+- Added haptic feedback when presenting Project and Area detail views
+- Nicer animations when presenting and dismissing the mini detail view
 
+### Changed
+- Numerous under the hood changes to increase stability and performance
+- The keyboard now autocapitalise each word when inputting an Area or Project name 
+
+### Fixed
+- Fixed a bug that occurred when typing to create a todo, the cursor was sometimes not updating and lagged behind the user's typing.
+- Fixed various alignment issues and visual bugs throughout the UI
+  - For example, the headers were out of alignment in the landing page of the Tasks tab
+  - Another example, sometimes the Area icons in the landing page would shrink unnecessarily
+- Fix todo completion status occasionally out of sync with checkbox visual
+- Improved completion and deletion animations
+
+
+## [0.7.0 (3)] - 2022-10-17
+### Added
+- Quickly set priority of tasks, either by tapping on the indicator, or by swiping right, or via the context menu.
+- Completed tasks list will always allow users to easily clear older completed tasks
+
+### Changed
+- EXPERIMENTAL: Use mini detail view throughout the application, so no more inline editing of tasks. This was causing a lot of lagginess when scrolling through many todos and various other UI glitches. Editing the title or notes is still achievable in two taps.
+
+
+## [0.7.0 (2)] - 2022-10-16
+### Removed
+- Was forced to remove automatic scroll feature when creating new todos due to a SwiftUI bug
+  - This bug causes the app to crash ocassionally when creating new todos
+
+## [0.7.0 (1)] - 2022-10-16
+### Added
+- Users will now experience haptic feedback when creating a todo or event
+- Added a dedicated view for editing Projects
+- Users can now mark Projects as completed by tapping on its checkbox.
+- Users can now view completed tasks for a Project or Area. 
+- Users can now easily clear completed tasks that are older than a specified date 
+- Updated the title and description of widgets
+  - Tapping on the Upcoming widgets will now open Yata to the current day's schedule
+- Added a home screen widget that displays to users up to 2 upcoming tasks for the day
+  - Tapping on this home screen widget will open up the quick add dialog
+
+### Changed 
+- Tweaked various visual alignment issues
+
+### Fixed
+- (Hopefully) fixed the bug where users would receive repeated notifications
+- Smoothened the animations relating to task rows and task lists	
+- Completed tasks were showing in the All Day bar even though they were already in the Timeline
+- Fixed an unintended behaviour when transitioning from editing a task's title to its notes
+  - The task row would collapse when going from notes back to the title
+- Improved the animation when swiping to delete project
+
+ 
 ## [0.6.0 (10)] - 2022-10-02
 ### Added
 - Users will now experience haptic feedback when creating a todo or event
