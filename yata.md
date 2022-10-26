@@ -31,11 +31,26 @@ Yata is a to-do app that combines both task management and daily planning into a
 ## [Known Issues]
 
 ## [Coming Soon]
-- Widgets
+- Configurable Widgets that can display tasks in a chosen Area (or the Inbox)
 
 ## [Someday / Maybe]
 - Habit Tracker
 - Pomodoro Timer
+
+
+## [0.7.0 (5)] - 2022-10-25
+### Added
+- Tappable elements to the Upcoming widget. 
+  - Users can tap on the widget's + button to quickly add a new task for Today, or
+  - Users can tap on the task itself to view their schedule
+
+### Changed
+- Added circular background to lockscreen Launcher widget
+
+### Fixed
+- Fixed widget syncing issues
+- Fixed keyboard cursor lagging issues when creating new todos or editing their titles.
+
 
 ## [0.7.0 (4)] - 2022-10-24
 ### Added
