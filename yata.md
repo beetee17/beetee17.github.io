@@ -18,6 +18,9 @@ Yata is a to-do app that combines both task management and daily planning into a
 
 - **Quick Add** allows you to create tasks with minimal friction. The appropriate attributes of the new task are automatically inferred based on your current location within the app. There is also support for **natural language dates**, allowing you to schedule tasks inline. 
 
+- **Private**. Yata has no access to any of your tasks and data, as they are stored securely in iCloud.
+
+
 ### Other Features
 - Recurring tasks
 - Upload and view attachments to a task
