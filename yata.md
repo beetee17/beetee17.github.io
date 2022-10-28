@@ -41,7 +41,23 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
-## [0.7.0 (7)] - 2022-10-26
+
+## [0.7.0 (8)] - 2022-10-28
+### Added
+- The widgets will now perform relevant actions when tapping on certain regions. 
+- Example: Tapping on a todo will open the app with the detail view activated automatically
+
+### Changed
+- Moved the quick add button to the top of the System Medium Area Widget
+- Changed the colours of the todo count in Area Widget to match the area's accent color
+
+### Fixed
+- The Inbox colour was not displaying correctly in Area Widget
+- Todos were not animating changes in Inbox
+- Changes to a todo's priority were not be rolled back if editing was cancelled
+
+
+## [0.7.0 (7)] - 2022-10-27
 ### Added
 - You can now choose to be notified in advance of your task's due date
 - The Area Widget will now display an indicator if the task has a due date
@@ -61,6 +77,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 ### Fixed
 - Widgets were previously unavailable to iOS 15 devices
 - Bug where Upcoming widget would not update its date at midnight
+
 
 ## [0.7.0 (5)] - 2022-10-25
 ### Added
