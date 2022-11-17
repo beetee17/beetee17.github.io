@@ -41,7 +41,108 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
-## [0.7.0 (10)] - 2022-10-30
+
+## [MAC] [0.3.0 (1)] - 2022-11-16
+### Added
+- Support for magic trackpad scrolling ing the Upcoming Calendar View!
+- Updated the share extension to match feature set of iOS version
+- Keyboard shortcuts for various actions 
+
+
+##  [0.8.0 (10)] - 2022-11-16
+### Added
+- Keyboard shortcuts for various actions (for iPad users)
+
+## Changed
+- Remove the comma for due dates that have a time component
+
+
+## [0.8.0 (9)] - 2022-11-16
+### Added
+- Include the time in the task's deadline when set
+
+### Fixed
+- The Calendar no longer lags when scrolling!
+- Various improvements to the Mini Detail View (does not overflow the screen's bounds)
+
+
+## [0.8.0 (8)] - 2022-11-15
+### Added
+Do test out the new Time Blocks feature and feedback on its usefulness!
+
+Time Blocks allows you to easily split up a complex task into easy, rewarding and actionable subtasks. You can find/test this feature by scheduling a task as per normal.
+
+Why Use Time Blocks?
+
+Sometime we have tasks that aren’t easily broken down into smaller chunks. And usually, these tasks take multiple sittings to get done. These tasks are not only intimidating to tackle, they also do not make us feel rewarded when we make incremental progress on them. Both of these factors increase the likelihood of procrastination.
+
+ 
+Take a task such as “Write the first draft of the essay” for example. Right now, if you schedule the task to be worked on for x hours, but did not complete it during that sitting, there is no reward for that. In fact, you are “punished” by having an incomplete task left in the schedule.
+
+With time blocks, you can schedule that big task as a “block”. A block simply means “I want to make progress on this task, but I do not yet know what specifically I will have accomplished at the end of the sitting”. 
+
+This block is a task by itself (it has all the abilities of a normal task eg rescheduling, priority, tags etc), but is also softly linked to the parent task so that you are able view all the blocks of each task. 
+
+However, you can now mark the block as complete after spending the time on the task, regardless of if you have actually finished “Writing the first draft”. 
+
+You can then also rename the block post-completion to specify what exactly was achieved during that sitting, for general bookkeeping and also to help you plan next actions. 
+
+In this way, you are rewarded for any incremental progress made towards a task.
+
+### Changed
+- Due and overdue tasks that are incomplete are now brought forward to your Schedule
+
+### Fixed
+- Fix rescheduler not detecting end times
+- Various improvements to the UI and animations of the mini detail view 
+
+
+
+## [0.8.0 (7)] - 2022-11-14
+### Added
+- Further improvements to the Share Extension's UI and logic
+- You are now able to create recurring tasks that only caluculate the next date upon completion(rather than on a fixed schedule). 
+- This is useful to model certain types of tasks with a less stringent recurrence. 
+- For example, if you would like to create a task "Go to the dentist" every 6 months. Since this type of task is more flexible, you may only complete the task 3 months after its due date. However, you do not want the next "Go to the dentist" task to be created based on its original date (that would mean the next appointment was due just 3 months from now). Rather, you may prefer that it added 6 months to the current date instead.
+
+ 
+## [0.8.0 (6)] - 2022-11-11
+### Added
+- Revamped the share extension on iOS! Quickly transform any url, file, screenshot, or plain text into a task too be sent to your inbox or any area of your choice. 
+- For example, this might be useful for collecting "read-later" items. On any browser, tap the share button and choose "Yata", and the link will automatically be added to the task's notes, ready for you to give a title and send it on its way to your Inbox.
+- You can now edit your tags in the Tag Selector view.
+- More default colours to choose from!
+- You can now customise due alert timing within quick add view
+
+### Changed
+- Renamed the "Low" priority to be "Medium". Therefore, the current order is "None", "Medium", "High" and "Very High"
+  
+### Fixed
+- Quick add notes were not saving
+
+## [MAC] [0.2.0 (2)] - 2022-11-11
+- Ported over iOS widgets to MacOS
+
+## [0.8.0 (4)] - 2022-11-10
+### Fixed
+- Further reduced lag when scrolling the calendar view
+- You will not be prompted when cancelling an edit operation if no meaningful edit was made
+- For example, editing a todo's title by typing and then clearing all edits used to result in an alert when cancelling the edit operation.
+
+## [0.8.0 (1)] - 2022-11-10
+### Added
+- Yata is now on MacOS! Download Testflight on your Mac to give it a try!
+- Various improvements to the handling of tags
+- Users can now view their Schedule on iPad by selecting a date in the mini calendar located in the sidebar
+- Tapping on notifications will launch the app with the details of the corresponding todo opened automatically 
+- Reduced some of the lag when scrolling the calendar view (more work required)
+
+
+## [0.7.0 (12)] - 2022-10-30
+### Added
+- You can now view a preview of your widget when customising it in the Settings
+
+## [0.7.0 (11)] - 2022-10-30
 ### Added
 - Major (experimental) rework of the iPad layout; it now uses the side-bar design.
 - You can now customise the colors of the various widget components!
@@ -60,6 +161,7 @@ Yata is a to-do app that combines both task management and daily planning into a
 
 ## Fixed
 - Fix deep link bug where navigation view was pushing the view twice
+
 
 ## [0.7.0 (8)] - 2022-10-28
 ### Added
