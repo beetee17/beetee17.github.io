@@ -41,6 +41,62 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
+##  [0.9.0 (1)] - 2022-11-29
+### Added
+- You can now timeblock multiple tasks to work on. This is the second use case of timeblocking, where you have multiple small tasks that you would like to allocate some time to complete. Perhaps it would be easier to visualise with a video:
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/Timeblocking_Multi.gif" width="200">
+
+- You can now choose to hide events from certain calendars via the Settings.
+- Improved the transition between calendar views
+
+### Changed
+- Calendar events now show their location, rather than the event notes in the Upcoming View.
+
+### Fixed
+- All day events were previously shown as "completed"
+- Various bug fixes surrounding the time block feature
+
+##  [0.8.0 (14)] - 2022-11-20
+### Fixed
+- Users were unable to edit a task from the mini detail view
+
+
+## [MAC] [0.3.0 (3)] - 2022-11-19
+### Added
+- Similar drag gestures to the mini detail view
+- Users can now open multiple tabs of the application (Menu → View → Show Tab Bar)
+
+### Changed
+- The keyboard shortcut for toggling the side bar is no Ctrl+S, rather than the previously unintuitive Command+Option+S
+
+
+##  [0.8.0 (13)] - 2022-11-19
+### Added
+- More gestures! This time to the mini detail view that appears whenever you select a task.
+
+### Fixed
+- Alert dialogs would break the mini detail view (the app was unable to present it afterwards)
+- Users were being allowed to complete tasks that had incomplete timeblocks
+
+
+## [MAC] [0.3.0 (2)] - 2022-11-16
+### Added
+- Try out the fluid and responsive gestures when switching between the Monthly and Weekly calendar views!
+
+### Fixed
+- The Share Extension was not fetching the title or url of a webpage
+
+
+##  [0.8.0 (12)] - 2022-11-18
+### Added
+- Refinements to the gestures introduced in the previous update
+
+##  [0.8.0 (11)] - 2022-11-18
+### Added
+- Try out the fluid and responsive gestures when switching between the Monthly and Weekly calendar views!
+- Dates and times in the app now respect your system settings for 12h/24h times
+
 
 ## [MAC] [0.3.0 (1)] - 2022-11-16
 ### Added
