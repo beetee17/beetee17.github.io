@@ -41,6 +41,13 @@ Yata is a to-do app that combines both task management and daily planning into a
 - Habit Tracker
 - Pomodoro Timer
 
+##  [0.9.0 (2)] - 2022-11-30
+We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
+### Added
+- Revamped the Canvas Integration feature
+- User settings such as App Theme, Start Page, Widget Appearance, etc are now synced across your iCloud devices
+
+
 ##  [0.9.0 (1)] - 2022-11-29
 ### Added
 - You can now timeblock multiple tasks to work on. This is the second use case of timeblocking, where you have multiple small tasks that you would like to allocate some time to complete. Perhaps it would be easier to visualise with a video:
