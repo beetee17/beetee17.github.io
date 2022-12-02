@@ -27,70 +27,106 @@ In Yata, a task is shown in the **Inbox** when it does not have an assigned [int
 
 ### Intent
 
-In Yata, there is a clear separation between a task's intent date (i.e. when you want to work on it), and its due date (i.e. deadline).
+In Yata, there is a clear separation between a task's **intent date** (i.e. when you want to work on it), and its **due date** (i.e. deadline).
 
 This is because in reality, we tend not to only start working on our tasks at or right before its due date (or at least we try not to). Therefore, having this separation helps you to capture this important distinction, unlike most conventional Todo applications.
 
-Moreover, there are two special kinds of intent 'dates' that are separate from real dates. These are the **Anytime** and **Someday** intents. **Anytime** and **Someday** are useful for scheduling tasks in a meaningful way when you do not yet know exactly when you want to do them, instead of arbitrarily assigning a date in order to rid them from the **Inbox**.
+The **Inbox** displays tasks that do not have an assigned intent date.
 
-**Anytime** and **Someday** tasks will appear in the **Anytime** and **Someday** lists respectively. Moreover, as implied above, the **Inbox** will not show tasks that are marked for **Anytime** or **Someday**.
+It is recommended to regularly review your **Inbox** and aim for it to be empty (as you would for emails)!
 
-**Anytime** tasks can be thought of as **“bonus” tasks for the day**. When today’s tasks have been completed ahead of schedule, look into the **Anytime** list for more items to get done.
+#### Special Intents
 
-Another recommended workflow is to review the **Anytime** list at the end of the day and move selected tasks to be tomorrow’s tasks.
+There are **two special kinds** of intent 'dates' that are separate from real dates, **Anytime** and **Someday**.
 
-**Tasks that you want to work on in the future but not right now can be stored in Someday**. For example, books to read, blog post ideas, etc. You can then review these tasks when time and energy permit.
+These are useful for scheduling tasks in a meaningful way when you do not yet know exactly when you want to do them, **instead of arbitrarily assigning a date in order to rid them from the Inbox**.
 
-Lastly, the **Scheduled** list shows a sorted list of tasks that have a *real* intent date (i.e. not **Anytime** or **Someday**).
+#### Scheduling a Task
 
-### Scheduling Tasks
-Assigning an intent date to a task is extremely intuitive!
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SchedulingDemo.gif" width="200">
 
-When creating a task, simply use natural language to specify the intent date. For example, "Do work on sunday" or "Do work next wednesday at 3pm".
-
-
-Natural language can also be used to reschedule a task:
-- To activate the rescheduler in the Tasks tab, swipe right on a task and tap on the *Calendar* button.  
-- To activate the rescheduler in the Upcoming tab, tap on the task's time, or long press on the task if it does not have a time.
-
-
-#### Notes
-In the future, Yata aims to add on to this intent feature with the following improvements:  
-- Notifications for intent dates (reminders to start working on a task)  
-- Allow the option to automatically schedule due tasks for Today.  
 
 ### Subtasks
 
-Most tasks are not well-represented as a single step, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
+**Most tasks are not well-represented as a single step**, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
 
-Subtasks allow you to overcome this issue and group closely related tasks together. They allow you to break down a task into smaller components.
+Subtasks allow you to overcome this issue and **group closely related tasks together**. They allow you to **break down a task into smaller components**.
 
-Moreover, by breaking down a task into smaller steps, you can visualise your completion progress as a continuous value rather than single binary value!
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDmeo.gif" width="200">
 
-Create or edit subtasks of a todo via the detail view that is presented when tapping on the *more* button on any existing todo.
 
 ### Tags
 
-Tags function as 'soft' links between tasks. A task can have multiple tags.
+**Tags** function as **'soft' links between tasks**. A task can have **multiple** tags.
 
-Tags are useful to group task into broad categories, and as an alternative to Areas when a task fits into more than one category.
+**Tags** are useful to** group task into broad categories**, and as an alternative to **Areas** when a **task fits into more than one category**.
 
-Update a task's tags by swiping right on a task, and tapping on the *Tag* button. You can also manage your tags from the menu that is presented.
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TaggingDemo.gif" width="200">
 
 ### Projects
 
-Projects are completable collections of tasks.
+**Projects** are **completable collections of tasks**.
 
-Projects are useful to group related tasks that share the same end goal. Doing so allows you to stay organised and focus on related tasks easily.
+**Projects** are useful to **group related tasks that share the same end goal**. Doing so allows you to stay organised and focus on related tasks easily.
 
-To create a project, tap on the plus icon in the main menu, located beside the *Projects* section header.
+#### Creating a Project
 
-You may also group related projects into areas for an extra layer of organisation. To assign a project to an area, swipe left and tap on the *folder* icon.
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateProjectDemo.gif" width="200">
+
+#### Moving a Project to an Area
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/MoveProjectDemo.gif" width="200">
+
 
 ### Areas
 
-Areas are collections of projects and tasks.
+**Areas** are **collections of projects and tasks**.
 
-Areas are useful to group related projects and tasks into specific categories. Doing so allows you to stay organised and focus on related tasks easily.
+**Areas** are useful to **group related projects and tasks into specific categories**. Doing so allows you to stay organised and focus on related tasks easily.
 
-To create an area, tap on the plus icon in the main menu, located beside the *Area* section header.  
+#### Creating an Area
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateAreaDemo.gif" width="200">
+
+#### Editing an Area
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo.gif" width="200">
+
+#### Moving Tasks to an Area
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/BulkMovingDemo.gif" width="200">
+
+
+### Timeblocking
+
+Timeblocking is a convenience feature that **helps you fight procrastination and stay motivated!**.
+
+A timeblock is a **special type of subtask that can have many parent tasks**.
+
+**Timeblocks are treated like normal tasks** in Yata (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but is also **softly linked to its parent task(s)** to provide additional context. 
+
+#### Why Use Time Blocks?
+
+##### Usecase 1 - Breaking up complex tasks progressively
+
+Sometime we have tasks that **aren’t easily broken down into smaller chunks**. And usually, they **take multiple sittings** to get done. Such tasks are not only **intimidating to tackle**, but they also **do not make us feel rewarded** for incremental progress made on them. 
+
+Both of these factors **increase the likelihood of procrastinatio**.
+
+Take a task such as **“Write the first draft of the essay”** for example. If you had scheduled the task to be worked on for an hour, but did not complete it during that sitting, there is no reward for that. In fact, you are **“punished” by having an incomplete task left in the schedule**.
+
+With time blocks, you can schedule such large tasks into "blocks". A timeblock simply means **“I want to make progress on this task, but I do not yet know what specifically I will have accomplished at the end of the sitting”**. 
+
+In this way, you can now mark the timeblock as complete after spending the time on the task, **regardless** of if you have actually finished **“Writing the first draft”**. 
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingLargeTaskDemo.gif" width="200">
+
+
+##### Usecase 2 - Scheduling multiple small tasks as a group
+
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo.gif" width="200">
+
+#### Tips
+After completing a **timeblock**, you can then rename it to **specify what exactly was achieved during that sitting**, for general bookkeeping and also **to help you plan next actions**. 
+

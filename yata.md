@@ -48,6 +48,8 @@ When you create a timeblock **T** with parent(s) **P**, then the meaning of **T*
 - The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)
 
 
+We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
+
 ##  [0.9.0 (4)] - 2022-11-30
 ### Fixed 
 - Bug where navigating to the Completed list would cause crashes for some users, or display 0 tasks even if there were completed tasks.
@@ -61,7 +63,6 @@ When you create a timeblock **T** with parent(s) **P**, then the meaning of **T*
 
 
 ##  [0.9.0 (2)] - 2022-11-30
-We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
 ### Added
 - Revamped the Canvas Integration feature
 - User settings such as App Theme, Start Page, Widget Appearance, etc are now synced across your iCloud devices
