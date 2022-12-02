@@ -52,7 +52,7 @@ These are useful for scheduling tasks in a meaningful way when you do not yet kn
 
 Subtasks allow you to overcome this issue and **group closely related tasks together**. They allow you to **break down a task into smaller components**.
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDmeo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDemo.gif" width="200">
 
 
 ### Tags

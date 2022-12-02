@@ -8,8 +8,6 @@ Yata is a to-do app that combines both task management and daily planning into a
 
 <img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
 
-When you create a timeblock **T** with parent(s) **P**, then the meaning of **T** is simply 'to work on **P**'. \n\nThe consequence of this is that you now have a task which is linked to **P**, but can be completed without also completing **P**.
-
 ### Main Features
 - **iCloud Integration**. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
 
@@ -72,7 +70,7 @@ We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmet
 ### Added
 - You can now timeblock multiple tasks to work on. This is the second use case of timeblocking, where you have multiple small tasks that you would like to allocate some time to complete. Perhaps it would be easier to visualise with a video:
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/Timeblocking_Multi.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo.gif" width="200">
 
 - You can now choose to hide events from certain calendars via the Settings.
 - Improved the transition between calendar views
