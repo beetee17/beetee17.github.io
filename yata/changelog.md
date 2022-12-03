@@ -9,7 +9,7 @@
 - Habit Tracker
 - Pomodoro Timer
 
-## [MAC] [0.3.0 (4)] - 2022-11-19
+## [MAC] [0.3.0 (4)] - 2022-12-03
 ### Added
 - Significant UI changes to the calendar in the sidebar 
 - The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)
@@ -17,12 +17,16 @@
 
 We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
 
-##  [0.9.0 (4)] - 2022-11-30
+##  [0.9.0 (5)] - 2022-12-03
+### Changed 
+- Updated the scroll feel and animations of the Upcoming View (hopefully it feels better to page between the days in the daily schedule!)
+
+##  [0.9.0 (4)] - 2022-12-03
 ### Fixed 
 - Bug where navigating to the Completed list would cause crashes for some users, or display 0 tasks even if there were completed tasks.
 
 
-##  [0.9.0 (3)] - 2022-11-30
+##  [0.9.0 (3)] - 2022-12-03
 ### Added
 - Revamped the Onboarding/Tutorial Screens
 - The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)

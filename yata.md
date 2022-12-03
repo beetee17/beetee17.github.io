@@ -2,13 +2,13 @@
 
 Yata is a to-do app that combines both task management and daily planning into a powerful productivity tool for you to get things done.
 
+<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
+
 [Install via Testflight](https://testflight.apple.com/join/pGhH4eRP)  
 
 [Documentation]({{ site.base-url }}/yata/docs)
 
 [Full Changelog]({{ site.base-url }}/yata/changelog)
-
-<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
 
 ### Main Features
 - **iCloud Integration**. All your tasks and data are automatically kept in sync between iOS devices that share an iCloud account. 
