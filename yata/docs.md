@@ -34,7 +34,7 @@ These are useful for scheduling tasks in a meaningful way when you do not yet kn
 
 ## Subtasks
 
-**Most tasks are not well-represented as a single step**, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
+**Many tasks are not well-represented as a single step**, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are **broad or complex**, and become demotivated as we do not know where to start.
 
 Subtasks allow you to overcome this issue and **group closely related tasks together**. They allow you to **break down a task into smaller components**.
 
@@ -46,7 +46,7 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 **Tags** function as **'soft' links between tasks**. A task can have **multiple** tags.
 
-**Tags** are useful to** group task into broad categories**, and as an alternative to **Areas** when a **task fits into more than one category**.
+**Tags** are useful to **group task into broad categories**, and as an alternative to **Areas** when a **task fits into more than one category**.
 
 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/TaggingDemo.gif" width="200">
@@ -106,7 +106,7 @@ Instead of keeping an open-ended to-do list of things you’ll get to as you’r
 
 In Yata, a time block is a **special type of subtask that can have many parent tasks**.
 
-**Timeblocks are treated like normal tasks** (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but they are also **softly linked to its parent task(s)** to provide additional context. 
+**Time blocks are treated like normal tasks** (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but they are also **softly linked to its parent task(s)** to provide additional context. 
 
 
 ### Why Use Time Blocks?
