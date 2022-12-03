@@ -2,7 +2,6 @@
 title: "Yata: Yet Another To-Do App"
 ---
 
-
 # Documentation
 {:.no_toc}
 
@@ -11,25 +10,11 @@ title: "Yata: Yet Another To-Do App"
 - TOC
 {:toc}
 
-### Overall Structure
-
-GTD is a popular task management system created by David Allen. The methodology is based on a simple truth: **our brains are for having ideas, not storing them**.
-
-The more information bouncing around inside your head, the harder it is to decide what needs attention. As a result, **you spend more time thinking about your tasks than actually doing them**. When information piles up in your head, it can lead to stress, anxiety, or a loss in focus.
-
-The GTD method describes **how to dump all your mental clutter into an external system and then organize it so you can focus on the right things at the right times**.
-
-When your GTD workflow is set up right, you’ll be able to confidently answer “*what should I be working on?*” at any given moment without worrying that you might forget something important you need to do later.
-
-Yata makes it easy to incorporate a similar workflow, with the **Inbox**, **Scheduled**, **Anytime** and **Someday** lists.
-
-In Yata, a task is shown in the **Inbox** when it does not have an assigned [intent date](https://beetee17.github.io/yata/intent). It is recommended to regularly review your **Inbox** and aim for it to be empty (as you would for emails)!
-
-### Intent
+## Intent
 
 In Yata, there is a clear separation between a task's **intent date** (i.e. when you want to work on it), and its **due date** (i.e. deadline).
 
-This is because in reality, we tend not to only start working on our tasks at or right before its due date (or at least we try not to). Therefore, having this separation helps you to capture this important distinction, unlike most conventional Todo applications.
+This is because in reality, we tend not to only start working on our tasks at or right before its due date (or at least we try not to). Therefore, having this separation helps you to capture this important distinction.
 
 The **Inbox** displays tasks that do not have an assigned intent date.
 
@@ -45,8 +30,9 @@ These are useful for scheduling tasks in a meaningful way when you do not yet kn
 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/SchedulingDemo.gif" width="200">
 
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
-### Subtasks
+## Subtasks
 
 **Most tasks are not well-represented as a single step**, with a binary state of completed and incomplete. Oftentimes, we are faced with tasks that are broad or complex, and become demotivated as we do not know where to start.
 
@@ -54,8 +40,9 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDemo.gif" width="200">
 
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
-### Tags
+## Tags
 
 **Tags** function as **'soft' links between tasks**. A task can have **multiple** tags.
 
@@ -64,7 +51,10 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/TaggingDemo.gif" width="200">
 
-### Projects
+
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
+
+## Projects
 
 **Projects** are **completable collections of tasks**.
 
@@ -79,7 +69,9 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/MoveProjectDemo.gif" width="200">
 
 
-### Areas
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
+
+## Areas
 
 **Areas** are **collections of projects and tasks**.
 
@@ -98,7 +90,9 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/BulkMovingDemo.gif" width="200">
 
 
-### Time Blocking
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
+
+## Time Blocking
 
 > If you don't control your schedule, it will control you.
 
@@ -115,9 +109,9 @@ In Yata, a time block is a **special type of subtask that can have many parent t
 **Timeblocks are treated like normal tasks** (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but they are also **softly linked to its parent task(s)** to provide additional context. 
 
 
-#### Why Use Time Blocks?
+### Why Use Time Blocks?
 
-##### Use Case 1: Breaking up complex tasks progressively
+#### Use Case 1: Breaking up complex tasks progressively
 
 Sometime we have tasks that **aren’t easily broken down into smaller chunks**. And usually, they **take multiple sittings** to get done. Such tasks are not only **intimidating to tackle**, but they also **do not make us feel rewarded** for incremental progress made on them. 
 
@@ -133,12 +127,12 @@ This means that **regardless** of if you have actually finished **“Writing the
 
 In this way, time blocks can **relieve the stress and anxiety** that comes from focusing too much on a task's **outcomes**, by shifting that focus onto **effort** instead.
 
-###### Tip
+##### Tip
 
 After completing a **time block**, you can rename it to **specify what exactly was achieved during that sitting**, for general bookkeeping and also **to help you plan next actions**. 
 
 
-##### Use Case 2: Task Batching
+#### Use Case 2: Task Batching
 
 Task batching is when you **group similar (usually smaller) tasks together and schedule a specific time block to complete them all at once**. 
 
@@ -149,3 +143,4 @@ For example, scheduling two 20-minute blocks to process email during the day is 
 <img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo.gif" width="200">
 
 
+[Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
