@@ -6,7 +6,9 @@ As the name suggests, Yata is well aware of the fierce competition in the task m
 
 <img src="https://beetee17.github.io/docs/assets/Yata/images/Yata2Screenshot.png">
 
-[Install via Testflight](https://testflight.apple.com/join/pGhH4eRP)  
+[Install the Production Build via App Store](https://apps.apple.com/sg/app/yata-yet-another-to-do-app/id1631370175)
+
+[Install the Beta Build via Testflight](https://testflight.apple.com/join/pGhH4eRP)  
 
 [Documentation]({{ site.base-url }}/yata/docs)
 
