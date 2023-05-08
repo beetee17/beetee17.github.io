@@ -8,7 +8,7 @@
 
 ### [Yata: Yet Another To-do App]({{ site.base-url }}/yata)
 
-### [Minutes: Transcribe Anything](https://testflight.apple.com/join/5z25NHwR)
+### [Minutes: AI Voice Notes]({{ site.base-url }}/minutes)
 
 ### [Word Bomb: Multiplayer](https://apps.apple.com/us/app/word-bomb-multiplayer/id1577748567)
 

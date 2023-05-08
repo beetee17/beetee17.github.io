@@ -1,0 +1,7 @@
+<script>
+var uri = 'minutes://oauth-callback/notion';
+// while current location is 'baz.html?foo=1&a=b' for example
+uri = uri + window.location.search;
+// this will output 'foobar.html?foo=1&a=b'    
+window.location.replace(uri)
+</script>

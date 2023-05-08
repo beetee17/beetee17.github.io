@@ -9,13 +9,17 @@
 - Habit Tracker
 - Pomodoro Timer
 
+
+##  [0.9.0 (6)] - 2022-12-04
+### Changed 
+- Fixed some visual bugs regarding the subtasks add/edit screen
+
+
 ## [MAC] [0.3.0 (4)] - 2022-12-03
 ### Added
 - Significant UI changes to the calendar in the sidebar 
 - The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)
 
-
-We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
 
 ##  [0.9.0 (5)] - 2022-12-03
 ### Changed 
@@ -35,6 +39,7 @@ We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmet
 
 ##  [0.9.0 (2)] - 2022-11-30
 ### Added
+We are nearing Yata's 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then...
 - Revamped the Canvas Integration feature
 - User settings such as App Theme, Start Page, Widget Appearance, etc are now synced across your iCloud devices
 
