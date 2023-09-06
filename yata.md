@@ -4,7 +4,9 @@ About 1.5 years ago, I was looking for a task manager to help organise my school
 
 In all seriousness, Yata is a to-do app that combines both task management and daily planning into a powerful productivity tool for you to get things done. As the name suggests, Yata is well aware of the fierce competition in the task management space, but it aims to be the best task manager for likeminded users.
 
-<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata_Screenshot.png">
+<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata_Screenshots.001.png">
+
+<img src="https://beetee17.github.io/docs/assets/Yata/images/Yata_Screenshots.002.png">
 
 [Download on the App Store](https://apps.apple.com/sg/app/yata-yet-another-to-do-app/id1631370175)
 
