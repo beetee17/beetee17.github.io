@@ -11,11 +11,17 @@ In all seriousness, Yata is a to-do app that combines both task management and d
 ### Main Features
 
 🔄 **iCloud Sync:** All your data is automatically kept in sync between iOS devices that share an iCloud account.
+
 🗓️ **Unified Schedule:** View and manage your tasks and events in one place with the integrated Schedule view.
+
 🎨 **Theming:** Yata takes theming to a new level, offering an intuitive and delightful experience for exploring, customising, and managing various aesthetics to make the app uniquely yours.
+
 🧠 **Flexible Organization:** Group and categorise your tasks as you see fit, with features like subtasks, tags, projects, areas and more.
+
 ➕ **Frictionless:** Easily create tasks from anywhere with Quick Add and natural language recognition.
+
 📱 **Home & Lock Screen Widgets:** Get a quick overview of your schedule from anywhere.
+
 🙏 **Built with SwiftUI and [The Composable Architecture (TCA)](https://github.com/pointfreeco/swift-composable-architecture):** This isn’t a feature, but I just want to express my gratitude to the creators and maintainers of these two frameworks, which have played a huge part in making me fall in love with iOS development.
 
 Other features include push notifications, recurring tasks, attachments, bulk editing, etc, and even more to come!

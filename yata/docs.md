@@ -61,14 +61,6 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 **Projects** are useful to **group related tasks that share the same end goal**. Doing so allows you to stay organised and focus on related tasks easily.
 
-#### HOW TO: Create a Project
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateProjectDemo-iPhone.gif" width="200">
-
-#### HOW TO: Move a Project to an Area
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/MoveProjectDemo-iPhone.gif" width="200">
-
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
 ## Areas
@@ -76,14 +68,6 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 **Areas** are **collections of projects and tasks**.
 
 **Areas** are useful to **group related projects and tasks into specific categories**. Doing so allows you to stay organised and focus on related tasks easily.
-
-#### HOW TO: Create an Area
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateAreaDemo-iPhone.gif" width="200">
-
-#### HOW TO: Edit an Area
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo-iPhone.gif" width="200">
 
 #### HOW TO: Move Tasks to an Area
 
