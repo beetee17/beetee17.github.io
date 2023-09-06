@@ -3,12 +3,15 @@ title: "Yata: Yet Another To-Do App"
 ---
 
 # Documentation
+
 {:.no_toc}
 
 ## Table of Contents
+
 {:.no_toc}
+
 - TOC
-{:toc}
+  {:toc}
 
 ## Intent
 
@@ -28,7 +31,7 @@ These are useful for scheduling tasks in a meaningful way when you do not yet kn
 
 #### HOW TO: Schedule a Task
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SchedulingDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SchedulingDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
@@ -38,7 +41,7 @@ These are useful for scheduling tasks in a meaningful way when you do not yet kn
 
 Subtasks allow you to overcome this issue and **group closely related tasks together**. They allow you to **break down a task into smaller components**.
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/SubtaskingDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
@@ -48,9 +51,7 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 **Tags** are useful to **group task into broad categories**, and as an alternative to **Areas** when a **task fits into more than one category**.
 
-
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TaggingDemo.gif" width="200">
-
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TaggingDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
@@ -62,12 +63,11 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 #### HOW TO: Create a Project
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateProjectDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateProjectDemo-iPhone.gif" width="200">
 
 #### HOW TO: Move a Project to an Area
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/MoveProjectDemo.gif" width="200">
-
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/MoveProjectDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
@@ -79,16 +79,15 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 #### HOW TO: Create an Area
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateAreaDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/CreateAreaDemo-iPhone.gif" width="200">
 
 #### HOW TO: Edit an Area
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/EditAreaDemo-iPhone.gif" width="200">
 
 #### HOW TO: Move Tasks to an Area
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/BulkMovingDemo.gif" width="200">
-
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/BulkMovingDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
 
@@ -98,7 +97,7 @@ Subtasks allow you to overcome this issue and **group closely related tasks toge
 
 Time blocking (and its close cousin, task batching) is **a simple, yet effective way to take back control of your workday**.
 
-It a time management method that asks you to **divide your day into blocks of time**. Each block is **dedicated to accomplishing a specific task, or group of tasks**. 
+It a time management method that asks you to **divide your day into blocks of time**. Each block is **dedicated to accomplishing a specific task, or group of tasks**.
 
 Instead of keeping an open-ended to-do list of things you’ll get to as you’re able, you’ll start each day with a concrete schedule that lays out what you’ll work on and when.
 
@@ -106,41 +105,38 @@ Instead of keeping an open-ended to-do list of things you’ll get to as you’r
 
 In Yata, a time block is a **special type of subtask that can have many parent tasks**.
 
-**Time blocks are treated like normal tasks** (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but they are also **softly linked to its parent task(s)** to provide additional context. 
-
+**Time blocks are treated like normal tasks** (i.e. it has all the abilities of a normal task eg rescheduling, priority, tags etc), but they are also **softly linked to its parent task(s)** to provide additional context.
 
 ### Why Use Time Blocks?
 
 #### Use Case 1: Breaking up complex tasks progressively
 
-Sometime we have tasks that **aren’t easily broken down into smaller chunks**. And usually, they **take multiple sittings** to get done. Such tasks are not only **intimidating to tackle**, but they also **do not make us feel rewarded** for incremental progress made on them. 
+Sometime we have tasks that **aren’t easily broken down into smaller chunks**. And usually, they **take multiple sittings** to get done. Such tasks are not only **intimidating to tackle**, but they also **do not make us feel rewarded** for incremental progress made on them.
 
 Both of these factors **increase the likelihood of procrastinatio**.
 
 Take a task such as **“Write the first draft of the essay”** for example. If you had scheduled the task to be worked on for an hour, but did not complete it during that sitting, there is no reward for that. In fact, you are **“punished” by having an incomplete task left in the schedule**.
 
-Time blocks allow you to schedule such large tasks in terms **smaller, more manageable and actionable chunks**. This is because you can think of a time block as a task that is considered complete once the alloted time has been spent on its parent task(s). 
+Time blocks allow you to schedule such large tasks in terms **smaller, more manageable and actionable chunks**. This is because you can think of a time block as a task that is considered complete once the alloted time has been spent on its parent task(s).
 
-This means that **regardless** of if you have actually finished **“Writing the first draft”**, you can complete its time block and feel good about yourself, as you should! 
+This means that **regardless** of if you have actually finished **“Writing the first draft”**, you can complete its time block and feel good about yourself, as you should!
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingLargeTaskDemo.gif" width="200">
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingLargeTaskDemo-iPhone.gif" width="200">
 
 In this way, time blocks can **relieve the stress and anxiety** that comes from focusing too much on a task's **outcomes**, by shifting that focus onto **effort** instead.
 
 ##### Tip
 
-After completing a **time block**, you can rename it to **specify what exactly was achieved during that sitting**, for general bookkeeping and also **to help you plan next actions**. 
-
+After completing a **time block**, you can rename it to **specify what exactly was achieved during that sitting**, for general bookkeeping and also **to help you plan next actions**.
 
 #### Use Case 2: Task Batching
 
-Task batching is when you **group similar (usually smaller) tasks together and schedule a specific time block to complete them all at once**. 
+Task batching is when you **group similar (usually smaller) tasks together and schedule a specific time block to complete them all at once**.
 
-By tackling similar tasks in a group, you’ll **limit the amount of context switching you have to do throughout your day**, saving precious time and mental energy. 
+By tackling similar tasks in a group, you’ll **limit the amount of context switching you have to do throughout your day**, saving precious time and mental energy.
 
 For example, scheduling two 20-minute blocks to process email during the day is more efficient than checking your inbox every 15 minutes.
 
-<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo.gif" width="200">
-
+<img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo-iPhone.gif" width="200">
 
 [Back To Top]({{ site.base-url }}/yata/docs#table-of-contents)
