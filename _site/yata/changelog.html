@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=32fda190fb901caf74ade7f40d853e40df566862">
+    <link rel="stylesheet" href="/assets/css/style.css?v=934e4310ba441f1066aac578da00e08347715c7d">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -51,1319 +51,428 @@
     <main id="content" class="main-content" role="main">
       <h1 id="changelog">Changelog</h1>
 
-<h2 id="known-issues">[Known Issues]</h2>
+<p>All notable changes to this project will be documented in this file.</p>
 
-<h2 id="coming-soon">[Coming Soon]</h2>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
 
-<h2 id="someday--maybe">[Someday / Maybe]</h2>
+<h2 id="21-16-20---2023-09-06">[2.1 (16-20)] - 2023-09-06</h2>
+
 <ul>
-  <li>Habit Tracker</li>
-  <li>Pomodoro Timer</li>
+  <li>Revert to iOS 16 code in preparation of update, as App Store does not accept beta submissions</li>
+  <li>The only notable change is that interactive widgets have been disabled for iOS 17 beta. If you would like to have interactive widgets, do remain on version 2.1 (15).</li>
+  <li>Expect this change to be reverted when iOS 17 GM build is released</li>
 </ul>
 
-<h2 id="090-6---2022-12-04">[0.9.0 (6)] - 2022-12-04</h2>
+<h2 id="21-13-15---2023-09-05">[2.1 (13-15)] - 2023-09-05</h2>
+
 <h3 id="changed">Changed</h3>
+
 <ul>
-  <li>Fixed some visual bugs regarding the subtasks add/edit screen</li>
+  <li>Subtask section is now easier to access in detail view</li>
+  <li>Updated Tutorial gifs</li>
 </ul>
 
-<h2 id="mac-030-4---2022-12-03">[MAC] [0.3.0 (4)] - 2022-12-03</h2>
-<h3 id="added">Added</h3>
-<ul>
-  <li>Significant UI changes to the calendar in the sidebar</li>
-  <li>The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)</li>
-</ul>
+<h2 id="21-11-12---2023-09-04">[2.1 (11-12)] - 2023-09-04</h2>
 
-<h2 id="090-5---2022-12-03">[0.9.0 (5)] - 2022-12-03</h2>
 <h3 id="changed-1">Changed</h3>
+
 <ul>
-  <li>Updated the scroll feel and animations of the Upcoming View (hopefully it feels better to page between the days in the daily schedule!)</li>
+  <li>Reduce font weight and sizes in widgets</li>
 </ul>
 
-<h2 id="090-4---2022-12-03">[0.9.0 (4)] - 2022-12-03</h2>
 <h3 id="fixed">Fixed</h3>
-<ul>
-  <li>Bug where navigating to the Completed list would cause crashes for some users, or display 0 tasks even if there were completed tasks.</li>
-</ul>
-
-<h2 id="090-3---2022-12-03">[0.9.0 (3)] - 2022-12-03</h2>
-<h3 id="added-1">Added</h3>
-<ul>
-  <li>Revamped the Onboarding/Tutorial Screens</li>
-  <li>The app will now not new wsers for notifications and calendar access immediately. Rather it will do so as necessary (e.g. when the user navigates to the Schedule for the first time)</li>
-  <li>Significant UI changes to the calendar in the sidebar (when on landscape on iPad or Mac)</li>
-</ul>
-
-<h2 id="090-2---2022-11-30">[0.9.0 (2)] - 2022-11-30</h2>
-<h3 id="added-2">Added</h3>
-<p>We are nearing Yata’s 1.0 App Store Release!! Expect mostly bug fixes and cosmetic changes until then…</p>
-<ul>
-  <li>Revamped the Canvas Integration feature</li>
-  <li>User settings such as App Theme, Start Page, Widget Appearance, etc are now synced across your iCloud devices</li>
-</ul>
-
-<h2 id="090-1---2022-11-29">[0.9.0 (1)] - 2022-11-29</h2>
-<h3 id="added-3">Added</h3>
-<ul>
-  <li>You can now timeblock multiple tasks to work on. This is the second use case of timeblocking, where you have multiple small tasks that you would like to allocate some time to complete. Perhaps it would be easier to visualise with a video:</li>
-</ul>
-
-<p><img src="https://beetee17.github.io/docs/assets/Yata/gifs/TimeblockingSmallTasksDemo.gif" width="200" /></p>
 
 <ul>
-  <li>You can now choose to hide events from certain calendars via the Settings.</li>
-  <li>Improved the transition between calendar views</li>
+  <li>Reduced app size significantly</li>
+  <li>Occasional frame drops when switching back to app</li>
+  <li>Deep linking to schedule not updating the calendar</li>
 </ul>
+
+<h2 id="21-10---2023-08-29">[2.1 (10)] - 2023-08-29</h2>
 
 <h3 id="changed-2">Changed</h3>
+
 <ul>
-  <li>Calendar events now show their location, rather than the event notes in the Upcoming View.</li>
+  <li>Default to Inbox view when in Sidebar layout instead of showing blank detail</li>
 </ul>
 
 <h3 id="fixed-1">Fixed</h3>
+
 <ul>
-  <li>All day events were previously shown as “completed”</li>
-  <li>Various bug fixes surrounding the time block feature</li>
+  <li>Fixed an issue with the sidebar not updating when the task counts changed</li>
 </ul>
 
-<h2 id="080-14---2022-11-20">[0.8.0 (14)] - 2022-11-20</h2>
-<h3 id="fixed-2">Fixed</h3>
-<ul>
-  <li>Users were unable to edit a task from the mini detail view</li>
-</ul>
+<h2 id="21-9---2023-08-29">[2.1 (9)] - 2023-08-29</h2>
 
-<h2 id="mac-030-3---2022-11-19">[MAC] [0.3.0 (3)] - 2022-11-19</h2>
-<h3 id="added-4">Added</h3>
+<h3 id="added">Added</h3>
+
 <ul>
-  <li>Similar drag gestures to the mini detail view</li>
-  <li>Users can now open multiple tabs of the application (Menu → View → Show Tab Bar)</li>
+  <li>Added a numbers row above the keyboard when rescheduling tasks for easier date entry</li>
 </ul>
 
 <h3 id="changed-3">Changed</h3>
+
 <ul>
-  <li>The keyboard shortcut for toggling the side bar is no Ctrl+S, rather than the previously unintuitive Command+Option+S</li>
+  <li>Improved the arrangement of task row detailed layout in certain cases</li>
+  <li>The detailed layout is now the default setting for new users</li>
+  <li>Reduced load times when switching to Schedule tab by fetching data on app launch</li>
+  <li>Changed Future icon color to blue instead of app theme’s accent color</li>
+  <li>Standardised (and made smaller) the font size of titles in the Schedule</li>
 </ul>
 
-<h2 id="080-13---2022-11-19">[0.8.0 (13)] - 2022-11-19</h2>
-<h3 id="added-5">Added</h3>
+<h3 id="fixed-2">Fixed</h3>
+
 <ul>
-  <li>More gestures! This time to the mini detail view that appears whenever you select a task.</li>
+  <li>Fix navigation bug when switching tabs on iPad</li>
+  <li>Preserve state in the Tasks Tab instead of overriding it completely if user reselects the same destination</li>
+  <li>Fixed a bug causing some Task Lists to not animate when it was ungrouped</li>
 </ul>
+
+<h2 id="21-8---2023-08-25">[2.1 (8)] - 2023-08-25</h2>
 
 <h3 id="fixed-3">Fixed</h3>
+
 <ul>
-  <li>Alert dialogs would break the mini detail view (the app was unable to present it afterwards)</li>
-  <li>Users were being allowed to complete tasks that had incomplete timeblocks</li>
+  <li>Fixed an issue with the lock screen widgets’ text being grayed out on iOS 16 devices</li>
 </ul>
 
-<h2 id="mac-030-2---2022-11-16">[MAC] [0.3.0 (2)] - 2022-11-16</h2>
-<h3 id="added-6">Added</h3>
+<h2 id="21-7---2023-08-25">[2.1 (7)] - 2023-08-25</h2>
+
+<h3 id="added-1">Added</h3>
+
 <ul>
-  <li>Try out the fluid and responsive gestures when switching between the Monthly and Weekly calendar views!</li>
+  <li>Added the ability to edit project’s area in detail view</li>
+  <li>Added better deep links to the app for the Schedule widgets</li>
+  <li>Added interactivity to the lock-screen Task widget</li>
+  <li>Improved accessibility on various screens when using larger font sizes</li>
+  <li>Added icons to the screen shown when configuring a Task widget</li>
+</ul>
+
+<h3 id="changed-4">Changed</h3>
+
+<ul>
+  <li>Reduced the undo banner’s lifetime</li>
+  <li>Removed an additional tap to confirm when moving tasks and projects</li>
+  <li>Changed the icon appearance of calendar events</li>
+  <li>Redirect the Submit Feedback button to Yata’s canny.io feedback board</li>
 </ul>
 
 <h3 id="fixed-4">Fixed</h3>
+
 <ul>
-  <li>The Share Extension was not fetching the title or url of a webpage</li>
+  <li>Fixed a visual glitch when selecting a tag</li>
+  <li>Fixed issues with the UI not refreshing after syncing with iCloud</li>
+  <li>Fixed an issue where tasks created from the Share extension would not show in the UI till the next launch</li>
+  <li>Fixed a missing add action when todo has no subtasks</li>
 </ul>
 
-<h2 id="080-12---2022-11-18">[0.8.0 (12)] - 2022-11-18</h2>
-<h3 id="added-7">Added</h3>
+<h2 id="21-6---2023-08-23">[2.1 (6)] - 2023-08-23</h2>
+
+<h3 id="added-2">Added</h3>
+
 <ul>
-  <li>Refinements to the gestures introduced in the previous update</li>
+  <li>Add ability to group or ungroup tasks by area in Inbox, Someday and Anytime lists.</li>
 </ul>
 
-<h2 id="080-11---2022-11-18">[0.8.0 (11)] - 2022-11-18</h2>
-<h3 id="added-8">Added</h3>
-<ul>
-  <li>Try out the fluid and responsive gestures when switching between the Monthly and Weekly calendar views!</li>
-  <li>Dates and times in the app now respect your system settings for 12h/24h times</li>
-</ul>
+<h3 id="changed-5">Changed</h3>
 
-<h2 id="mac-030-1---2022-11-16">[MAC] [0.3.0 (1)] - 2022-11-16</h2>
-<h3 id="added-9">Added</h3>
 <ul>
-  <li>Support for magic trackpad scrolling ing the Upcoming Calendar View!</li>
-  <li>Updated the share extension to match feature set of iOS version</li>
-  <li>Keyboard shortcuts for various actions</li>
-</ul>
-
-<h2 id="080-10---2022-11-16">[0.8.0 (10)] - 2022-11-16</h2>
-<h3 id="added-10">Added</h3>
-<ul>
-  <li>Keyboard shortcuts for various actions (for iPad users)</li>
-</ul>
-
-<h2 id="changed-4">Changed</h2>
-<ul>
-  <li>Remove the comma for due dates that have a time component</li>
-</ul>
-
-<h2 id="080-9---2022-11-16">[0.8.0 (9)] - 2022-11-16</h2>
-<h3 id="added-11">Added</h3>
-<ul>
-  <li>Include the time in the task’s deadline when set</li>
+  <li>Improved the UI of the Area/Project creation/edit screens</li>
 </ul>
 
 <h3 id="fixed-5">Fixed</h3>
+
 <ul>
-  <li>The Calendar no longer lags when scrolling!</li>
-  <li>Various improvements to the Mini Detail View (does not overflow the screen’s bounds)</li>
+  <li>Fix textfield not presenting on iOS16 when creating a todo</li>
+  <li>Incorrect sort ordering of todos without due dates</li>
 </ul>
 
-<h2 id="080-8---2022-11-15">[0.8.0 (8)] - 2022-11-15</h2>
-<h3 id="added-12">Added</h3>
-<p>Do test out the new Time Blocks feature and feedback on its usefulness!</p>
-
-<p>Time Blocks allows you to easily split up a complex task into easy, rewarding and actionable subtasks. You can find/test this feature by scheduling a task as per normal.</p>
-
-<p>Why Use Time Blocks?</p>
-
-<p>Sometime we have tasks that aren’t easily broken down into smaller chunks. And usually, these tasks take multiple sittings to get done. These tasks are not only intimidating to tackle, they also do not make us feel rewarded when we make incremental progress on them. Both of these factors increase the likelihood of procrastination.</p>
-
-<p>Take a task such as “Write the first draft of the essay” for example. Right now, if you schedule the task to be worked on for x hours, but did not complete it during that sitting, there is no reward for that. In fact, you are “punished” by having an incomplete task left in the schedule.</p>
-
-<p>With time blocks, you can schedule that big task as a “block”. A block simply means “I want to make progress on this task, but I do not yet know what specifically I will have accomplished at the end of the sitting”.</p>
-
-<p>This block is a task by itself (it has all the abilities of a normal task eg rescheduling, priority, tags etc), but is also softly linked to the parent task so that you are able view all the blocks of each task.</p>
-
-<p>However, you can now mark the block as complete after spending the time on the task, regardless of if you have actually finished “Writing the first draft”.</p>
-
-<p>You can then also rename the block post-completion to specify what exactly was achieved during that sitting, for general bookkeeping and also to help you plan next actions.</p>
-
-<p>In this way, you are rewarded for any incremental progress made towards a task.</p>
-
-<h3 id="changed-5">Changed</h3>
-<ul>
-  <li>Due and overdue tasks that are incomplete are now brought forward to your Schedule</li>
-</ul>
+<h2 id="21-5---2023-08-22">[2.1 (5)] - 2023-08-22</h2>
 
 <h3 id="fixed-6">Fixed</h3>
+
 <ul>
-  <li>Fix rescheduler not detecting end times</li>
-  <li>Various improvements to the UI and animations of the mini detail view</li>
+  <li>Improve the performance of the text field when creating a todo</li>
+  <li>Fix textfield being dismissed when dismissing the Task Mover when creating a todo</li>
+  <li>Fix bug preventing users from saving a todo to a specified Area from the ShareExtension</li>
 </ul>
 
-<h2 id="080-7---2022-11-14">[0.8.0 (7)] - 2022-11-14</h2>
-<h3 id="added-13">Added</h3>
-<ul>
-  <li>Further improvements to the Share Extension’s UI and logic</li>
-  <li>You are now able to create recurring tasks that only caluculate the next date upon completion(rather than on a fixed schedule).</li>
-  <li>This is useful to model certain types of tasks with a less stringent recurrence.</li>
-  <li>For example, if you would like to create a task “Go to the dentist” every 6 months. Since this type of task is more flexible, you may only complete the task 3 months after its due date. However, you do not want the next “Go to the dentist” task to be created based on its original date (that would mean the next appointment was due just 3 months from now). Rather, you may prefer that it added 6 months to the current date instead.</li>
-</ul>
+<h2 id="21-4---2023-08-19">[2.1 (4)] - 2023-08-19</h2>
 
-<h2 id="080-6---2022-11-11">[0.8.0 (6)] - 2022-11-11</h2>
-<h3 id="added-14">Added</h3>
+<h3 id="added-3">Added</h3>
+
 <ul>
-  <li>Revamped the share extension on iOS! Quickly transform any url, file, screenshot, or plain text into a task too be sent to your inbox or any area of your choice.</li>
-  <li>For example, this might be useful for collecting “read-later” items. On any browser, tap the share button and choose “Yata”, and the link will automatically be added to the task’s notes, ready for you to give a title and send it on its way to your Inbox.</li>
-  <li>You can now edit your tags in the Tag Selector view.</li>
-  <li>More default colours to choose from!</li>
-  <li>You can now customise due alert timing within quick add view</li>
+  <li>A brand new theme gallery and editor!</li>
+  <li>Area widgets have been revamped and renamed to Task widgets, as they can now show tasks from any list, i.e. Upcoming, Anytime, Someday, or even specific areas or projects.</li>
+  <li>Schedule widgets now also show calendar events in addition to tasks</li>
 </ul>
 
 <h3 id="changed-6">Changed</h3>
+
 <ul>
-  <li>Renamed the “Low” priority to be “Medium”. Therefore, the current order is “None”, “Medium”, “High” and “Very High”</li>
+  <li>What’s New page in preparation for upcoming release</li>
+  <li>Delete outdated/unnecessary tutorial pages</li>
+  <li>Expanded the hit-box of the quick add popup to prevent accidental dismissal</li>
 </ul>
+
+<h2 id="21-3---2023-08-04">[2.1 (3)] - 2023-08-04</h2>
 
 <h3 id="fixed-7">Fixed</h3>
+
 <ul>
-  <li>Quick add notes were not saving</li>
+  <li>Some text fields were inserting unwanted text due to new iOS 17 autocorrect feature</li>
+  <li>Performance improvements to task creation</li>
 </ul>
 
-<h2 id="mac-020-2---2022-11-11">[MAC] [0.2.0 (2)] - 2022-11-11</h2>
+<h2 id="21-1-2---2023-08-03">[2.1 (1-2)] - 2023-08-03</h2>
+
+<h3 id="added-4">Added</h3>
+
 <ul>
-  <li>Ported over iOS widgets to MacOS</li>
+  <li>Support for iOS 17 Interactive Widgets and StandBy mode. Try it out!</li>
+  <li>View attachments directly from the MiniDetailView</li>
+  <li>Undo/Redo critical actions</li>
+  <li>Significant rewrites of the UI/Database layer to improve performance across many parts of the app</li>
 </ul>
 
-<h2 id="080-4---2022-11-10">[0.8.0 (4)] - 2022-11-10</h2>
+<h2 id="202-3---2023-04-01">[2.0.2 (3)] - 2023-04-01</h2>
+
 <h3 id="fixed-8">Fixed</h3>
+
 <ul>
-  <li>Further reduced lag when scrolling the calendar view</li>
-  <li>You will not be prompted when cancelling an edit operation if no meaningful edit was made</li>
-  <li>For example, editing a todo’s title by typing and then clearing all edits used to result in an alert when cancelling the edit operation.</li>
+  <li>Timeblocking a scheduled task without inputting a date was not copying over the task’s end date</li>
 </ul>
 
-<h2 id="080-1---2022-11-10">[0.8.0 (1)] - 2022-11-10</h2>
-<h3 id="added-15">Added</h3>
-<ul>
-  <li>Yata is now on MacOS! Download Testflight on your Mac to give it a try!</li>
-  <li>Various improvements to the handling of tags</li>
-  <li>Users can now view their Schedule on iPad by selecting a date in the mini calendar located in the sidebar</li>
-  <li>Tapping on notifications will launch the app with the details of the corresponding todo opened automatically</li>
-  <li>Reduced some of the lag when scrolling the calendar view (more work required)</li>
-</ul>
-
-<h2 id="070-12---2022-10-30">[0.7.0 (12)] - 2022-10-30</h2>
-<h3 id="added-16">Added</h3>
-<ul>
-  <li>You can now view a preview of your widget when customising it in the Settings</li>
-</ul>
-
-<h2 id="070-11---2022-10-30">[0.7.0 (11)] - 2022-10-30</h2>
-<h3 id="added-17">Added</h3>
-<ul>
-  <li>Major (experimental) rework of the iPad layout; it now uses the side-bar design.</li>
-  <li>You can now customise the colors of the various widget components!</li>
-  <li>Improved the behaviour of the widgets when tapped.</li>
-</ul>
+<h2 id="202-2---2023-03-31">[2.0.2 (2)] - 2023-03-31</h2>
 
 <h3 id="changed-7">Changed</h3>
+
 <ul>
-  <li>Changed the push notification content, especially to reflect the update 0.7.0 (7) which introduced advanced notification timings.</li>
+  <li>Use ‘Tmr’ keyword for tomorrow instead of the weekday</li>
+  <li>Hide todos from the Inbox if they have incomplete timeblocks</li>
 </ul>
 
 <h3 id="fixed-9">Fixed</h3>
+
 <ul>
-  <li>Fix footer aesthetics; they previously displayed with a weird background.</li>
+  <li>Filtering by tags was not working in some tasks lists</li>
 </ul>
 
-<h2 id="070-9---2022-10-28">[0.7.0 (9)] - 2022-10-28</h2>
+<h2 id="202-1---2023-03-30">[2.0.2 (1)] - 2023-03-30</h2>
+
+<h3 id="added-5">Added</h3>
+
+<ul>
+  <li>Added some keyboard shortcuts for todo detail view and quick add buttons. CTRL-n to create a task, CTRL-s to save edits to a task, and ESC to cancel edits</li>
+</ul>
+
 <h3 id="changed-8">Changed</h3>
+
 <ul>
-  <li>Hide quick add button when todos are displayed in System Small Upcoming Widget</li>
+  <li>Use a more realistic mock database for previewing changes to the widget appearance</li>
 </ul>
 
-<h2 id="fixed-10">Fixed</h2>
+<h3 id="removed">Removed</h3>
+
 <ul>
-  <li>Fix deep link bug where navigation view was pushing the view twice</li>
+  <li>Remove unimplemented duplicate tasks button when bulk editing</li>
 </ul>
 
-<h2 id="070-8---2022-10-28">[0.7.0 (8)] - 2022-10-28</h2>
-<h3 id="added-18">Added</h3>
+<h3 id="fixed-10">Fixed</h3>
+
 <ul>
-  <li>The widgets will now perform relevant actions when tapping on certain regions.</li>
-  <li>Example: Tapping on a todo will open the app with the detail view activated automatically</li>
+  <li>Fixed occasional crashes when typing a natural language date in Quick Add</li>
 </ul>
+
+<h2 id="201-1-2---2023-03-29">[2.0.1 (1-2)] - 2023-03-29</h2>
+
+<h3 id="added-6">Added</h3>
+
+<ul>
+  <li>There is now an option in the Settings Tab to export application logs if needed (e.g. send to me for debugging purposes). However, you are in full control of the log files, and you may inspect the contents before sending them (they are plain text files).</li>
+  <li>These logs are anonymous, non-personal event data collected as the app runs, so if something odd happens (like a crash, or something doesn’t load) there’s some info that can help piece together why it happened. If you’re having a particular issue the developer might ask you to send your specific logs to better figure out what’s going on, and this is the way to do that! The logging is strictly done locally on the device, and NO user data is sent anywhere. Again they’re anonymous with no way to tie them to a specific person or device, and their purpose is purely diagnostic.</li>
+</ul>
+
+<h2 id="20-19---2023-03-28">[2.0 (19)] - 2023-03-28</h2>
 
 <h3 id="changed-9">Changed</h3>
+
 <ul>
-  <li>Moved the quick add button to the top of the System Medium Area Widget</li>
-  <li>Changed the colours of the todo count in Area Widget to match the area’s accent color</li>
+  <li>Completed tasks in the ScheduleView are now faded out</li>
 </ul>
 
 <h3 id="fixed-11">Fixed</h3>
+
 <ul>
-  <li>The Inbox colour was not displaying correctly in Area Widget</li>
-  <li>Todos were not animating changes in Inbox</li>
-  <li>Changes to a todo’s priority were not be rolled back if editing was cancelled</li>
+  <li>Multiple UI inconsistencies and general ugliness on iOS 15 devices</li>
 </ul>
 
-<h2 id="070-7---2022-10-27">[0.7.0 (7)] - 2022-10-27</h2>
-<h3 id="added-19">Added</h3>
-<ul>
-  <li>You can now choose to be notified in advance of your task’s due date</li>
-  <li>The Area Widget will now display an indicator if the task has a due date</li>
-</ul>
+<h2 id="20-15-18---2023-03-27">[2.0 (15-18)] - 2023-03-27</h2>
 
-<h3 id="fixed-12">Fixed</h3>
-<ul>
-  <li>Missing icon for the Launcher Widgets</li>
-</ul>
+<h3 id="added-7">Added</h3>
 
-<h2 id="070-6---2022-10-26">[0.7.0 (6)] - 2022-10-26</h2>
-<h3 id="added-20">Added</h3>
 <ul>
-  <li>More widgets! This time a configurable one. You can now view tasks from an Area of your choosing (or the Inbox)</li>
-  <li>Redesigned the Upcoming widget to show Today’s date</li>
+  <li>Added a new dark default theme: Ocean</li>
 </ul>
 
 <h3 id="changed-10">Changed</h3>
+
 <ul>
-  <li>The backgound of the launcher widget is now semi-transparent</li>
+  <li>Tweak ScheduleView UI for sidebar layout (i.e. on iPads)</li>
+  <li>Default to use numbers keyboard type on iPhones for faster input when rescheduling items</li>
 </ul>
+
+<h3 id="fixed-12">Fixed</h3>
+
+<ul>
+  <li>Fixed a bug where the Save All button when importing tasks from Canvas was not working</li>
+  <li>Fixed visual duplication of tasks when grouped by area</li>
+  <li>Fixed a bug where tasks belonging to an area via a project was not appearing under that area in Tasks Lists that were grouped by area (complicated, I know).</li>
+</ul>
+
+<h2 id="20-14---2023-03-26">[2.0 (14)] - 2023-03-26</h2>
 
 <h3 id="fixed-13">Fixed</h3>
+
 <ul>
-  <li>Widgets were previously unavailable to iOS 15 devices</li>
-  <li>Bug where Upcoming widget would not update its date at midnight</li>
+  <li>Fixed glitchy animation for Select button when navigating to a Tasks List</li>
 </ul>
 
-<h2 id="070-5---2022-10-25">[0.7.0 (5)] - 2022-10-25</h2>
-<h3 id="added-21">Added</h3>
+<h2 id="20-13---2023-03-26">[2.0 (13)] - 2023-03-26</h2>
+
+<h3 id="added-8">Added</h3>
+
 <ul>
-  <li>Tappable elements to the Upcoming widget.
-    <ul>
-      <li>Users can tap on the widget’s + button to quickly add a new task for Today, or</li>
-      <li>Users can tap on the task itself to view their schedule</li>
-    </ul>
-  </li>
+  <li>Added cancel button for submit feedback alert.</li>
 </ul>
 
 <h3 id="changed-11">Changed</h3>
+
 <ul>
-  <li>Added circular background to lockscreen Launcher widget</li>
+  <li>Update GitHub feedback link to reflect new GitHub repo name</li>
+  <li>Standardise SettingsView Icons to use flat colors rather than gradients</li>
+</ul>
+
+<h2 id="20-12---2023-03-26">[2.0 (12)] - 2023-03-26</h2>
+
+<h3 id="added-9">Added</h3>
+
+<ul>
+  <li>Added a communication channel for users to submit bug reports or feature requests via GitHub or Google Forms</li>
 </ul>
 
 <h3 id="fixed-14">Fixed</h3>
+
 <ul>
-  <li>Fixed widget syncing issues</li>
-  <li>Fixed keyboard cursor lagging issues when creating new todos or editing their titles.</li>
+  <li>Fix ScheduleWidget not showing tasks in the same order as the ScheduleView</li>
+  <li>Fixed deep linking from notifications not working on cold starts</li>
 </ul>
 
-<h2 id="070-4---2022-10-24">[0.7.0 (4)] - 2022-10-24</h2>
-<h3 id="added-22">Added</h3>
+<h2 id="20-11---2023-03-25">[2.0 (11)] - 2023-03-25</h2>
+
+<h3 id="added-10">Added</h3>
+
 <ul>
-  <li>Added accessibility support for many UI elements. Most relevant to users that use larger font sizes via Dynamic Type (Settings -&gt; Accessibility -&gt; Larger Text)</li>
-  <li>Added haptic feedback when presenting Project and Area detail views</li>
-  <li>Nicer animations when presenting and dismissing the mini detail view</li>
+  <li>Drastically improved performance of the app, especially for users with &gt;1000 todos.</li>
+  <li>Improved stability of deep linking feature</li>
+  <li>Added badge counts to the Main Tasks screen</li>
+  <li>Added the full context menu of TaskRows to ScheduleView items. Press and hold on a task in the ScheduleView to view a list of helper actions!</li>
+  <li>Added priority indicator to MiniDetailView</li>
+  <li>Added animations when confirming a TaskMover action</li>
 </ul>
 
 <h3 id="changed-12">Changed</h3>
+
 <ul>
-  <li>Numerous under the hood changes to increase stability and performance</li>
-  <li>The keyboard now autocapitalise each word when inputting an Area or Project name</li>
+  <li>Removed some unnecessary padding in the Priority section of the TodoDetailView</li>
 </ul>
 
 <h3 id="fixed-15">Fixed</h3>
+
 <ul>
-  <li>Fixed a bug that occurred when typing to create a todo, the cursor was sometimes not updating and lagged behind the user’s typing.</li>
-  <li>Fixed various alignment issues and visual bugs throughout the UI
-    <ul>
-      <li>For example, the headers were out of alignment in the landing page of the Tasks tab</li>
-      <li>Another example, sometimes the Area icons in the landing page would shrink unnecessarily</li>
-    </ul>
-  </li>
-  <li>Fix todo completion status occasionally out of sync with checkbox visual</li>
-  <li>Improved completion and deletion animations</li>
+  <li>The rescheduler not parsing certain inputs intelligently, when only the end date’s meridiem is specified. For example, “8 to 10am” should be equivalent to “8am to 10am”. However, the parser was seeing the two dates independently. Since we prioritise forward dates, the “8” was being parsed as “8pm”, hence the output was “8pm to 10am”. This actually causes a crash as the end date is earlier than the start date!</li>
+  <li>The bottom bar when bulk editing was not ignoring the keyboard</li>
 </ul>
 
-<h2 id="070-3---2022-10-17">[0.7.0 (3)] - 2022-10-17</h2>
-<h3 id="added-23">Added</h3>
-<ul>
-  <li>Quickly set priority of tasks, either by tapping on the indicator, or by swiping right, or via the context menu.</li>
-  <li>Completed tasks list will always allow users to easily clear older completed tasks</li>
-</ul>
+<h2 id="20-7-10---2023-03-24">[2.0 (7-10)] - 2023-03-24</h2>
 
-<h3 id="changed-13">Changed</h3>
-<ul>
-  <li>EXPERIMENTAL: Use mini detail view throughout the application, so no more inline editing of tasks. This was causing a lot of lagginess when scrolling through many todos and various other UI glitches. Editing the title or notes is still achievable in two taps.</li>
-</ul>
+<h3 id="added-11">Added</h3>
 
-<h2 id="070-2---2022-10-16">[0.7.0 (2)] - 2022-10-16</h2>
-<h3 id="removed">Removed</h3>
 <ul>
-  <li>Was forced to remove automatic scroll feature when creating new todos due to a SwiftUI bug
-    <ul>
-      <li>This bug causes the app to crash ocassionally when creating new todos</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="070-1---2022-10-16">[0.7.0 (1)] - 2022-10-16</h2>
-<h3 id="added-24">Added</h3>
-<ul>
-  <li>Users will now experience haptic feedback when creating a todo or event</li>
-  <li>Added a dedicated view for editing Projects</li>
-  <li>Users can now mark Projects as completed by tapping on its checkbox.</li>
-  <li>Users can now view completed tasks for a Project or Area.</li>
-  <li>Users can now easily clear completed tasks that are older than a specified date</li>
-  <li>Updated the title and description of widgets
-    <ul>
-      <li>Tapping on the Upcoming widgets will now open Yata to the current day’s schedule</li>
-    </ul>
-  </li>
-  <li>Added a home screen widget that displays to users up to 2 upcoming tasks for the day
-    <ul>
-      <li>Tapping on this home screen widget will open up the quick add dialog</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="changed-14">Changed</h3>
-<ul>
-  <li>Tweaked various visual alignment issues</li>
+  <li>What’s New page detailing the changes made in version 2.0. Find it in Settings → What’s New.</li>
+  <li>Added the ability to switch between the new and original icons. You can find this setting in Settings → App Icon</li>
+  <li>Added the ability to export core data database (this is essentially only for debugging purpose)</li>
+  <li>Added Haptic feedback to various user actions to improve U</li>
 </ul>
 
 <h3 id="fixed-16">Fixed</h3>
+
 <ul>
-  <li>(Hopefully) fixed the bug where users would receive repeated notifications</li>
-  <li>Smoothened the animations relating to task rows and task lists</li>
-  <li>Completed tasks were showing in the All Day bar even though they were already in the Timeline</li>
-  <li>Fixed an unintended behaviour when transitioning from editing a task’s title to its notes
-    <ul>
-      <li>The task row would collapse when going from notes back to the title</li>
-    </ul>
-  </li>
-  <li>Improved the animation when swiping to delete project</li>
+  <li>Completed projects were not hidden in AreaTasksListView by default.</li>
+  <li>Bug where notifications were still being sent for tasks that had their intent dates removed. This occurs when time blocking a task (which creates a copy of it and removes the intent date from the original task).</li>
 </ul>
 
-<h2 id="060-10---2022-10-02">[0.6.0 (10)] - 2022-10-02</h2>
-<h3 id="added-25">Added</h3>
+<h2 id="20-6---2023-03-21">[2.0 (6)] - 2023-03-21</h2>
+
+<h3 id="added-12">Added</h3>
+
 <ul>
-  <li>Users will now experience haptic feedback when creating a todo or event</li>
+  <li>Added the option to use a more detailed layout for task rows for those that prefer to see more at a glance! You can change from the default “Compact” style in Settings → Task Row Layout → “Detailed”.</li>
+  <li>Add the ability to mark Projects as completed. Completed Projects will be hidden by default.</li>
+</ul>
+
+<h3 id="changed-13">Changed</h3>
+
+<ul>
+  <li>A radically new app icon! Please do submit feedback on this change. An option to switch back to the previous icon will likely be implemented soon.</li>
+  <li>Changed the default sort order to break ties by due date first before creation date</li>
+</ul>
+
+<h2 id="20-5---2023-03-12">[2.0 (5)] - 2023-03-12</h2>
+
+<h3 id="added-13">Added</h3>
+
+<ul>
+  <li>Add Developer Mode setting and DebuggingView</li>
+  <li>Add option to sort by creation date</li>
+</ul>
+
+<h3 id="changed-14">Changed</h3>
+
+<ul>
+  <li>Change default sort order to break ties by creation date first before</li>
 </ul>
 
 <h3 id="fixed-17">Fixed</h3>
+
 <ul>
-  <li>Fix intermittent crashing on tapping the quick add button</li>
+  <li>Fix Delete confirmation dialog disappearing immediately when trying todelete Projects or Areas
+lexicographical order</li>
 </ul>
 
-<h2 id="060-9---2022-10-02">[0.6.0 (9)] - 2022-10-02</h2>
-<h3 id="added-26">Added</h3>
-<ul>
-  <li>Lock screen widgets for iOS 16 users!
-    <ul>
-      <li>You can now view your next upcoming task in your lock screen</li>
-      <li>More widgets such as those for the home screen are coming soon</li>
-    </ul>
-  </li>
-  <li>Improved the UX relating to expanding and collapsing task rows
-    <ul>
-      <li>The app will now automatically scroll to newly created tasks</li>
-      <li>The app will now automatically scroll to show the task row when the keyboard is activated such that the text field is not hidden</li>
-      <li>The app will now collapse a task row when user has finished editing</li>
-      <li>If a row is currently expanded, tapping on any other row will collapse it. Otherwise, the row is expanded as usual</li>
-    </ul>
-  </li>
-  <li>Add slight delay to edit task action and dismiss mini detail upon doing so</li>
-</ul>
-
-<h3 id="changed-15">Changed</h3>
-<ul>
-  <li>Reverted the previous change to the task title text fields</li>
-</ul>
-
-<h2 id="060-8---2022-09-30">[0.6.0 (8)] - 2022-09-30</h2>
-<h3 id="added-27">Added</h3>
-<ul>
-  <li>There is now a slight delay when adding tasks to allow for more UI feedback</li>
-  <li>Added more functionality to the Canvas integration
-    <ul>
-      <li>When selecting an Area to add tasks from a Canvas course, your preferences are now saved between imports</li>
-      <li>Canvas tasks that have been added will now be hidden initially so they are not re-added by default</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="changed-16">Changed</h3>
-<ul>
-  <li>Do not allow rescheduling of read-only events</li>
-  <li>Experimental: Editing the title of a task that is lower down on the list now does not result in the keyboard hiding the text field
-    <ul>
-      <li>However, this means that on non-iOS 16 devices, the text field is limited to a single line.</li>
-      <li>On iOS 16 devices, the text field is still expandable but the animations are slightly choppy</li>
-      <li>Will revert if there is a net cost to UX</li>
-    </ul>
-  </li>
-</ul>
+<h2 id="20-4---2023-02-27">[2.0 (4)] - 2023-02-27</h2>
 
 <h3 id="fixed-18">Fixed</h3>
+
 <ul>
-  <li>The background of the Tasks view was partially blacked out in iOS 16</li>
+  <li>Fixed broken iCloud sync</li>
 </ul>
 
-<h2 id="060-7---2022-09-27">[0.6.0 (7)] - 2022-09-27</h2>
-<h3 id="added-28">Added</h3>
+<h2 id="20-3---2023-02-26">[2.0 (3)] - 2023-02-26</h2>
+
+<h3 id="added-14">Added</h3>
+
 <ul>
-  <li>Task Priority System
-    <ul>
-      <li>You can now specify a priority level for a task</li>
-      <li>Tasks with a higher priority will be moved higher up in the task list! No more pinning tasks to get them to the top of the list</li>
-      <li>Hide reschedule button for events that are not editable</li>
-    </ul>
-  </li>
-  <li>https://stackoverflow.com/questions/4475120/iphone-how-to-detect-if-an-ekevent-instance-can-be-modified</li>
+  <li>You can now press and hold on a task to bring up its context menu for shortcuts to common actions</li>
+  <li>Added an alert dialog when changing themes that informs the user that their changes may not be fully reflected in the app until the app is next restarted</li>
 </ul>
 
 <h3 id="fixed-19">Fixed</h3>
-<ul>
-  <li>Users were unable to reschedule tasks or events in the Upcoming view</li>
-  <li>Intent indicators were not updating visually, even though the task was rescheduled correctly</li>
-  <li>Changes made to tasks in the Upcoming view were not being animated</li>
-  <li>The “Add Subtask” button was not fully tappable</li>
-</ul>
-
-<h2 id="060-6---2022-09-26">[0.6.0 (6)] - 2022-09-26</h2>
-<h3 id="added-29">Added</h3>
-<ul>
-  <li>You can now specify a custom ordering for your subtasks</li>
-  <li>The subtask section’s UI is improved with the following changes
-    <ul>
-      <li>The checkmark has been replaced with a checkbox view that is more consistent with the app’s UI</li>
-      <li>Tapping outside of checkbox now does not mark the subtask as complete</li>
-      <li>The keyboard is automatically activated when creating new subtasks</li>
-    </ul>
-  </li>
-  <li>You are now able to share attachments</li>
-  <li>You can now swipe down to dismiss the mini detail view</li>
-  <li>The task’s checkbox is now colored depending on the task’s project or area color</li>
-</ul>
-
-<h3 id="changed-17">Changed</h3>
-<ul>
-  <li>Your task’s notes are now not copied over when completing them (if they are recurring tasks)</li>
-  <li>You can now see the full title of your tasks in the mini detail view (previously, the title was truncated if it exceeded 2 lines)</li>
-  <li>You can now see more of a task’s notes in the mini detail view</li>
-  <li>You can now reschedule a task via the mini detail view (this replaces the previous action which was to duplicate a task)</li>
-</ul>
-
-<h3 id="fixed-20">Fixed</h3>
-<ul>
-  <li>Fixed the Canvas import functionality not returning all results</li>
-  <li>Fixed some dates not being parsed correctly (e.g. 8am instead of 830am) when creating or rescheduling tasks/events in the Upcoming tab, or in the Scheduled Tasks list</li>
-</ul>
-
-<h2 id="060-4---2022-09-25">[0.6.0 (4)] - 2022-09-25</h2>
-<h3 id="fixed-21">Fixed</h3>
-<ul>
-  <li>Hopefully reverted iCloud duplication issues with the last update</li>
-</ul>
-
-<h2 id="060-3---2022-09-24">[0.6.0 (3)] - 2022-09-24</h2>
-<h3 id="added-30">Added</h3>
-<ul>
-  <li>Add basic functionality to manage storage taken up by attachments</li>
-  <li>Tapping on the Tasks tab now navigates to the root view.</li>
-  <li>Tapping on the Upcoming tab now resets the selected date to the current date</li>
-  <li>Added the ability to select/copy task title and notes in mini detail view</li>
-  <li>Added colors to buttons depending on task’s area color</li>
-  <li>Added haptic feedback when todo detail view is activated</li>
-</ul>
-
-<h3 id="changed-18">Changed</h3>
-<ul>
-  <li>Parse dates from the back of text
-    <ul>
-      <li>If there are two dates, the one that occurs latest in the text is parsed</li>
-      <li>Example: “Do this today or on sunday” will parse as this Sunday instead of Today</li>
-    </ul>
-  </li>
-  <li>Increase intensity of haptic feedback when changing dates in calendar</li>
-  <li>Gray out today’s events that have past their times and completed tasks</li>
-  <li>Creating new events will now default to the currently selected date</li>
-  <li>Removed the restriction on duplicate project names</li>
-  <li>Show area in project tasks list, and none where appropriate</li>
-</ul>
-
-<h2 id="060-2---2022-09-23">[0.6.0 (2)] - 2022-09-23</h2>
-<h3 id="added-31">Added</h3>
-<ul>
-  <li>Add task count to select all button when bulk editing</li>
-  <li>Add indication of number of selected todos when bulk editing</li>
-</ul>
-
-<h3 id="changed-19">Changed</h3>
-<ul>
-  <li>Limit subtasks list’s height, and make the list scrollable if it exceeds the constrained space</li>
-  <li>Disallow setting of opacity for custom tag and project colors</li>
-  <li>Rename title of canvas tutorial page</li>
-</ul>
-
-<h3 id="fixed-22">Fixed</h3>
-<ul>
-  <li>Fix space taken up by todo notes not being constrained in Upcoming view</li>
-</ul>
-
-<h2 id="060-1---2022-09-23">[0.6.0 (1)] - 2022-09-23</h2>
-<h3 id="added-32">Added</h3>
-<ul>
-  <li>Import tasks from Canvas! Mainly applicable to NUS students.
-    <ul>
-      <li>Allows users to fetch quizzes and assignments from Canvas to be added as tasks into the app. Check it out in the Settings tab.</li>
-    </ul>
-  </li>
-  <li>Further improvements to parsing logic
-    <ul>
-      <li>Rescheduling items in daily planner was not respecting selected date</li>
-      <li>Specifying meridiem was causing the parser to ignore the default date.
-        <ul>
-          <li>For example, when rescheduling a task that was scheduled for tomorrow, “5am” was parsing as today’s 5am, rather than tomorrow’s 5am</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="changed-20">Changed</h3>
-<ul>
-  <li>Changed the UI of Settings page to fit the app theme</li>
-  <li>Show tasks that were completed on the day in the daily planner.
-Previously, if a task was not scheduled for the day but was marked complete on the day, it would not show up in the daily planner</li>
-</ul>
-
-<h2 id="050-15---2022-09-18">[0.5.0 (15)] - 2022-09-18</h2>
-<h3 id="discalaimer">DISCALAIMER</h3>
-<p>Apologies for the duplication of data after the recent updates! Unfortunately, upon investigation it seems to be a bug on Apple’s side… It occurs due to certain changes in the database that cannot be handled correctly by iCloud (so it duplicates all data as a safeguard). However, as the current state of the app’s architecture is relatively mature already, hopefully such changes will not be required in the future!</p>
-
-<h3 id="added-33">Added</h3>
-<ul>
-  <li>Show area or project under task title where appropriate</li>
-</ul>
-
-<h3 id="changed-21">Changed</h3>
-<ul>
-  <li>Deleting areas or projects now also deletes tasks within them.</li>
-  <li>Users are not allowed to create tasks with an empty title</li>
-  <li>Improve parsing logic by prioritising forward dates.
-    <ul>
-      <li>For example, parsing “at 2” when it is 10am should result in 2pm, rather than 2am</li>
-    </ul>
-  </li>
-  <li>Reset todos’ collapse state when exiting task list</li>
-</ul>
-
-<h3 id="fixed-23">Fixed</h3>
-<ul>
-  <li>Fix todo detail view title text field not aligned with placeholder</li>
-</ul>
-
-<h2 id="050-14---2022-09-14">[0.5.0 (14)] - 2022-09-14</h2>
-<h3 id="added-34">Added</h3>
-<ul>
-  <li>Newly created events will default to the currently selected date.</li>
-</ul>
-
-<h3 id="fixed-24">Fixed</h3>
-<ul>
-  <li>Add back ability to create Calendar events directly.</li>
-</ul>
-
-<h2 id="050-13---2022-09-14">[0.5.0 (13)] - 2022-09-14</h2>
-<h3 id="changed-22">Changed</h3>
-<ul>
-  <li>Hide intent indicators for Scheduled tasks list</li>
-  <li>Replaced tutorial screen with simple introduction with link to online documentation (will be enhanced closer to production)</li>
-</ul>
-
-<h3 id="fixed-25">Fixed</h3>
-<ul>
-  <li>Fixed bug where user was unable to edit or delete recurring events (changes were not being saved)</li>
-  <li>Fix quick add not ignoring certain patterns such as “11a”, “11:”</li>
-  <li>Numerous under-the-hood improvements</li>
-</ul>
-
-<h2 id="050-12---2022-09-02">[0.5.0 (12)] - 2022-09-02</h2>
-<h3 id="changed-23">Changed</h3>
-<ul>
-  <li>Add icons beside task list titles. Therefore, now intent indicators are hidden in anytime and someday views</li>
-</ul>
-
-<h3 id="fixed-26">Fixed</h3>
-<ul>
-  <li>Fix bulk select bottom bar starting in the wrong position.</li>
-  <li>Improve stability of area/project notes view (still requires further improvements).</li>
-</ul>
-
-<h2 id="050-11---2022-08-27">[0.5.0 (11)] - 2022-08-27</h2>
-<h3 id="added-35">Added</h3>
-<ul>
-  <li>Add placeholder to area tasks list if it is empty</li>
-</ul>
-
-<h3 id="changed-24">Changed</h3>
-<ul>
-  <li>Flag tasks that are due tomorrow as well. (Might make this a customisable setting)</li>
-  <li>Exclude parsing {some digit}: as a date. For example, Watch Lecture 9: Title would be parsed as 9am due to the 9:</li>
-</ul>
-
-<h3 id="fixed-27">Fixed</h3>
-<ul>
-  <li>Fix fatal bug when navigating around the app which was only recoverable by force quitting the app</li>
-  <li>Fix tasks lists were not animating</li>
-  <li>Fix task notes text cursor jumping to the end (was not actually fixed in the previous version)</li>
-  <li>Fix quick add tag selector not dismissing when quick add dismisses</li>
-  <li>Reset tapped tags when selector is dismissed</li>
-</ul>
-
-<h2 id="050-10---2022-08-26">[0.5.0 (10)] - 2022-08-26</h2>
-<h3 id="added-36">Added</h3>
-<ul>
-  <li>You can now add notes to areas and projects</li>
-</ul>
-
-<h3 id="fixed-28">Fixed</h3>
-<ul>
-  <li>Bug where text cursor was jumping to the end of text when editing a task’s notes</li>
-</ul>
-
-<h2 id="050-9---2022-08-25">[0.5.0 (9)] - 2022-08-25</h2>
-<h3 id="added-37">Added</h3>
-<ul>
-  <li>Added the ability to manually order areas and tags</li>
-  <li>Add haptic feedback throughout app when marking tasks as complete/incomplete</li>
-</ul>
-
-<h2 id="050-8---2022-08-24">[0.5.0 (8)] - 2022-08-24</h2>
-<h3 id="added-38">Added</h3>
-<ul>
-  <li>Add Light mode theme!
-    <ul>
-      <li>Users can switch between dark and light themes in the Settings, or opt for an “Automatic” setting which follows the current device’s color scheme</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="changed-25">Changed</h3>
-<ul>
-  <li>Change quick add notes keyboard’s return key from “Done” to default, as it inserts a new line rather than creating the task</li>
-  <li>Make area icon selection buttons’ hit box larger</li>
-  <li>Change area icon selection color to gray</li>
-  <li>Show create button for projects and areas by default</li>
-</ul>
-
-<h3 id="fixed-29">Fixed</h3>
-<ul>
-  <li>Fix quick add not being consistent with inferring current context.
-    <ul>
-      <li>For example, if viewing a project’s tasks, quick add should detect this and default the new task to the project. This should work no matter what screen the user navigates to. If the user does not change the default settings, the newly created task should always appear in the current list.</li>
-    </ul>
-  </li>
-  <li>Fix unable to edit task title when expanded</li>
-</ul>
-
-<h2 id="050-7---2022-08-22">[0.5.0 (7)] - 2022-08-22</h2>
-<h3 id="added-39">Added</h3>
-<ul>
-  <li>Mini detail sheet when selecting tasks in the Upcoming view.</li>
-</ul>
-
-<h3 id="changed-26">Changed</h3>
-<ul>
-  <li>Simplify subtask to narrow its purpose to creating simple checklists. Now, subtasks do not have the full functionality of a normal task, and instead simply comprise of a title and completion status. Users can utilise projects for more advanced needs. Previously the functionality of projects and subtasks were too similar, which can lead to user confusion.</li>
-</ul>
-
-<h3 id="fixed-30">Fixed</h3>
-<ul>
-  <li>Also fixed a bug introduced in the previous version where creating a task would pop the current view off the navigation stack.</li>
-</ul>
-
-<h2 id="050-6---2022-08-20">[0.5.0 (6)] - 2022-08-20</h2>
-<h3 id="fixed-31">Fixed</h3>
-<ul>
-  <li>Fix bug where area icon was not selecting.</li>
-  <li>Fix visual glitch when navigating between screens after expanding a task.</li>
-</ul>
-
-<h2 id="050-5---2022-08-20">[0.5.0 (5)] - 2022-08-20</h2>
-<h3 id="fixed-32">Fixed</h3>
-<ul>
-  <li>Fix bug with navigation view not responding after navigation</li>
-  <li>Partially fix bug where edit button was not clickable after sheet has been presented</li>
-</ul>
-
-<h2 id="050-4---2022-08-19">[0.5.0 (4)] - 2022-08-19</h2>
-<h3 id="added-40">Added</h3>
-<ul>
-  <li>Add settings button to iPad on landscape to allow for access to settings screen</li>
-  <li>Add clear button to textfield in Area detail view.</li>
-</ul>
-
-<h3 id="changed-27">Changed</h3>
-<ul>
-  <li>Make textfield and preview icon larger in Area detail view.</li>
-</ul>
-
-<h3 id="removed-1">Removed</h3>
-<ul>
-  <li>Removed blank icons from Area detail view.</li>
-  <li>Revert pinning sections in Completed and Scheduled list as it was causing infinite loop when bulk selecting</li>
-</ul>
-
-<h3 id="fixed-33">Fixed</h3>
-<ul>
-  <li>Attempt to fix various visual glitches (tasks were getting stuck to the top of the screen, forcing user to force quit the app.)</li>
-  <li>Fix settings view appearing to be blank on iPads in Portrait mode</li>
-</ul>
-
-<h2 id="050-3---2022-08-18">[0.5.0 (3)] - 2022-08-18</h2>
-<h3 id="fixed-34">Fixed</h3>
-<ul>
-  <li>Fix keyboard sometimes remaining on screen after creating todo</li>
-</ul>
-
-<h2 id="050-2---2022-08-18">[0.5.0 (2)] - 2022-08-18</h2>
-<h3 id="added-41">Added</h3>
-<ul>
-  <li>Setting to customise the default landing page of Tasks view</li>
-  <li>Drag handle in calendar view to indicate to users that it is draggable (to toggle between Week and Month views)</li>
-</ul>
-
-<h3 id="fixed-35">Fixed</h3>
-<ul>
-  <li>Attempt to fix issues with adding Calendar events (events were sometimes not saving or saving with incorrect date)</li>
-</ul>
-
-<h2 id="050-1---2022-08-17">[0.5.0 (1)] - 2022-08-17</h2>
-<h3 id="added-42">Added</h3>
-<ul>
-  <li><a href="/yata2">Yata v2</a></li>
-</ul>
-
-<h2 id="030-11---2022-07-29">[0.3.0 (11)] - 2022-07-29</h2>
-<h3 id="added-43">Added</h3>
-<ul>
-  <li>UI improvements to attachments view</li>
-  <li>UI improvements to the quick add date picker</li>
-  <li>Restrict users from creating tasks with empty title</li>
-</ul>
-
-<h3 id="changed-28">Changed</h3>
-<ul>
-  <li>Updated gifs to higher quality and changed logic of gif playback to debug crashes (likely due to memory leaks)</li>
-  <li>Slightly increased the size of each todo</li>
-</ul>
-
-<h3 id="fixed-36">Fixed</h3>
-<ul>
-  <li>Fix crash when uploading attachments to a task</li>
-  <li>Parser was detecting the correct time but removing the wrong portion of the text</li>
-</ul>
-
-<h2 id="030-10---2022-07-29">[0.3.0 (10)] - 2022-07-29</h2>
-<h3 id="added-44">Added</h3>
-<ul>
-  <li>Major UI changes to the todo detail view</li>
-  <li>Smoother animations overall, especially when deleting todos or performing actions from the context menu</li>
-  <li>Significanlty improved Natural language parser. It now infers duration, intent dates, due dates and due times.
-    <ul>
-      <li>For example, try “Do assignment tomorrow at 4pm for two hours” or “Do assignment for two hours due in two days at 4pm”</li>
-    </ul>
-  </li>
-  <li>Ability to set an estimated duration for a task. This duration is used when scheduling tasks as Calendar events.</li>
-  <li>“Do Today” and “Do Tomorrow” quick actions.
-    <ul>
-      <li>“Do Today” sets the task’s intent date to today, and moves it to the <em>Today</em> list.</li>
-      <li>“Do Tomorrow” sets the task’s intent date to tomorrow, and moves it to the <em>Anytime</em> list.</li>
-    </ul>
-  </li>
-  <li>“Create Event” quick action. Creates a calendar event for the task without drag and drop.</li>
-</ul>
-
-<h3 id="changed-29">Changed</h3>
-<ul>
-  <li>Allow tasks to be recurring as long as intent date or due date is set</li>
-</ul>
-
-<h3 id="removed-2">Removed</h3>
-<ul>
-  <li>Remove setting to toggle intent dates</li>
-  <li>Removed tutorial gifs temporarily for debugging purposes</li>
-</ul>
-
-<h2 id="030-9---2022-07-27">[0.3.0 (9)] - 2022-07-27</h2>
-<h3 id="added-45">Added</h3>
-<ul>
-  <li>Intent durations. Setting an intended duration for a task means that when dragging it onto the calendar, the created event will automatically be set to that duration.</li>
-  <li>Add a button that moves a todo to the selected list via the context menu</li>
-</ul>
-
-<h3 id="changed-30">Changed</h3>
-<ul>
-  <li>Updated the App Icon (draft)</li>
-  <li>Updated the animation when completing a todo</li>
-  <li>Reduce padding around show details button as due date text occasionally overflows</li>
-  <li>Standardise UI and UX for todo recurrence picker</li>
-  <li>Make notes editor dynamically size to fit text</li>
-  <li>Change black background of detail view to dark gray</li>
-  <li>Only show recurrence option if todo has due date</li>
-  <li>Change time picker to show 5 minute intervals</li>
-</ul>
-
-<h3 id="fixed-37">Fixed</h3>
-<ul>
-  <li>Fix: todo details sometimes not saving</li>
-  <li>Fix: time picker icon was gray when no time was selected. It should always be blue</li>
-  <li>Fix: context menu actions were not animating</li>
-</ul>
-
-<h2 id="030-8---2022-07-26">[0.3.0 (8)] - 2022-07-26</h2>
-<h3 id="added-46">Added</h3>
-<ul>
-  <li>Push notifications! Notifications are sent at a task’s due date/time if it is set. If only a due date is specified, the notification will trigger at 9am (will be customisable in the future).</li>
-  <li>Intent dates! Intent dates allow users to schedule a task to automatically move to the Today list at a specified date, whilst keeping this separate from the task’s due date. This feature is OFF by default and can be enabled via the settings screen.</li>
-  <li>Ability to specify due date AND time for task</li>
-  <li>Options to automatically move tasks to Today list depending on due date (this behaviour is turned ON by default, and can be disabled in the settings screen)</li>
-  <li>Persist the collapsed states for tags and projects filters section</li>
-  <li>Add content to GTD lists onboarding</li>
-</ul>
-
-<h3 id="changed-31">Changed</h3>
-<ul>
-  <li>Changed the colour of the settings screen’s top bar</li>
-  <li>The filters menu now stretches when drag gesture over-shoots</li>
-  <li>The filters menu now takes up slightly more space</li>
-  <li>Modifying parent Eisenhower status now also modifies its subtasks’ statuses</li>
-  <li>Selecting the current todo list as a filter should not deselect it</li>
-  <li>If no filter is selected, quick add applies the last used setting</li>
-  <li>Prettified the due date sections in the task detail view</li>
-  <li>Prettified the onboarding screens</li>
-  <li>The collapse arrows in the filters menu is now hidden when there is nothing to show.</li>
-</ul>
-
-<h3 id="removed-3">Removed</h3>
-<ul>
-  <li>Removed the new project rows from the areas section. Users can use drag and drop to move a project into an area.</li>
-  <li>Removed redundant word ‘todo’ from the context menu action labels</li>
-</ul>
-
-<h3 id="fixed-38">Fixed</h3>
-<ul>
-  <li>Fix todo sometimes marking as completed even when in edit mode</li>
-  <li>Fix crash when discarding changes from quick todo detail</li>
-</ul>
-
-<h2 id="030-7---2022-07-24">[0.3.0 (7)] - 2022-07-24</h2>
-
-<h3 id="changed-32">Changed</h3>
-<ul>
-  <li>Disable edit mode when filters menu is dismissed</li>
-  <li>Change the default behaviour to sort by completion date when filtering by completed tasks</li>
-  <li>Calendar events do not split into two columns if they are immediately consecutive</li>
-  <li>Remove more words that were being parsed as dates e.g. “vie”, “fr”, “mo”</li>
-  <li>Add slight shadow to main view that overlays the filters menu</li>
-  <li>Setting of overdue dates is now allowed</li>
-  <li>Bias the parsed date to be a future date. For example, typing “mar” would be inferred as March 1st, 2023 rather than March 1st, 2022</li>
-  <li>Projects and Tags filter sections are now collapsible</li>
-  <li>Add buttons for projects, areas and tags are hidden unless editing (need to update tutorial gifs)</li>
-</ul>
-
-<h3 id="fixed-39">Fixed</h3>
-<ul>
-  <li>Fix parsed date was highlighting the wrong range of text</li>
-</ul>
-
-<h2 id="030-6---2022-07-23">[0.3.0 (6)] - 2022-07-23</h2>
-
-<h3 id="changed-33">Changed</h3>
-<ul>
-  <li>Change due date button to calendar icon, and today list icon to a star</li>
-  <li>Hide quick add selector buttons if there are no options to select</li>
-  <li>Move tags section to the bottom of filters view</li>
-  <li>Only show all filters in edit mode when user expresses intent.</li>
-  <li>Only show clear selection button when not editing</li>
-  <li>Chang onboarding flow to show all views</li>
-</ul>
-
-<h3 id="removed-4">Removed</h3>
-<ul>
-  <li>Remove menu button from note view, users should not be able to enter edit mode from scratch pad</li>
-</ul>
-
-<h2 id="030-5---2022-07-22">[0.3.0 (5)] - 2022-07-22</h2>
-<h3 id="added-47">Added</h3>
-<ul>
-  <li>Allow tapping on page indicator to change page</li>
-  <li>Add setting to increase size of page indicator</li>
-  <li>Add more default filters (hidden by default):
-    <ul>
-      <li>Filter tasks by whether they have file attachments</li>
-      <li>Filter tasks by whether they have url links in their notes content</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="changed-34">Changed</h3>
-<ul>
-  <li>Improved link detection, previously was not detecting links such as google.com, www.google.com</li>
-</ul>
-
-<h2 id="030-4---2022-07-21">[0.3.0 (4)] - 2022-07-21</h2>
-<h3 id="changed-35">Changed</h3>
-<ul>
-  <li>Clear filters selection button is shown when at least one filter is selected</li>
-  <li>Rearrange filters section</li>
-  <li>Change default project color</li>
-</ul>
-
-<h3 id="fixed-40">Fixed</h3>
-<ul>
-  <li>Project filter was not clearing when tapping the clear selection button</li>
-  <li>Infinite looping glitch when todos had the same attributes</li>
-</ul>
-
-<h2 id="030-3---2022-07-20">[0.3.0 (3)] - 2022-07-20</h2>
-<h3 id="added-48">Added</h3>
-<ul>
-  <li>Ability to bulk move todos to a specific project or area</li>
-  <li>Update onboarding views with better quality gifs</li>
-  <li>Add tutorial screen for creating and editing projects</li>
-  <li>Add back pinch gesture to toggle full screen</li>
-</ul>
-
-<h3 id="changed-36">Changed</h3>
-<ul>
-  <li>Renamed Projects to Areas</li>
-  <li>Projects, are now (completable) collections of todos and subtodos, similar to Things 3</li>
-  <li>A todo can belong to either a project or area</li>
-</ul>
-
-<h3 id="fixed-41">Fixed</h3>
-<ul>
-  <li>Crash when deleting a tag when it is currently selected as a filter</li>
-</ul>
-
-<h2 id="030-2---2022-07-19">[0.3.0 (2)] - 2022-07-19</h2>
-<h3 id="changed-37">Changed</h3>
-<ul>
-  <li>Edit mode is set to inactive after user has finished creating/editing an area</li>
-  <li>Change font size and placeholder text for notes input in quick add view</li>
-</ul>
-
-<h3 id="fixed-42">Fixed</h3>
-<ul>
-  <li>Fix bug where area editor was dismissing automatically when keyboard is resigned</li>
-</ul>
-
-<h2 id="030-1---2022-07-19">[0.3.0 (1)] - 2022-07-19</h2>
-<h3 id="added-49">Added</h3>
-<ul>
-  <li>Ability to add notes to todo from quick add view</li>
-</ul>
-
-<h3 id="changed-38">Changed</h3>
-<ul>
-  <li>Changed the placeholder text for the quick add task description to one that lets users know they can use natural language to set due dates.</li>
-  <li>Renamed Project to Area (may cause exisiting todos to lose information about their projects, apologies :/)</li>
-</ul>
-
-<h2 id="020-10---2022-07-18">[0.2.0 (10)] - 2022-07-18</h2>
-<h3 id="added-50">Added</h3>
-<ul>
-  <li>Dismiss tags menu when user is done with quick add</li>
-  <li>Add subtle gradient to project icons</li>
-  <li>Added the ability to customise sort ordering of todos</li>
-  <li>Ability to override parsing by selecting date manually (known limitation: after doing so user cannot re-activate parsing without re-invoking quick add)</li>
-  <li>Remove extra whitespaces from parsed titles</li>
-</ul>
-
-<h3 id="changed-39">Changed</h3>
-<ul>
-  <li>Change archive filter to more useful completed filter</li>
-  <li>Calendar view scrolls to current time when viewing the current day, but scrolls to the first event when viewing other days</li>
-</ul>
-
-<h3 id="fixed-43">Fixed</h3>
-<ul>
-  <li>Fix project icon not updating on todo card</li>
-  <li>Fix visual glitch in project filters: icon rounded edges had a slight grey border</li>
-  <li>Fix: the word ‘do’ was being parsed as tomorrow’s date</li>
-  <li>Fix calendar view scrolling past its bounds</li>
-</ul>
-
-<h2 id="020-9---2022-07-15">[0.2.0 (9)] - 2022-07-15</h2>
-<h3 id="added-51">Added</h3>
-<ul>
-  <li>Add the ability to change pin status of quick add todo</li>
-  <li>Add background to project icons with the ability to customise its colour</li>
-  <li>Add max width to quick add for larger screens</li>
-  <li>Add visual indicators for project and todo list in todo view</li>
-</ul>
-
-<h3 id="changed-40">Changed</h3>
-<ul>
-  <li>Move due date text to top right and recurring indicator to bottom right</li>
-</ul>
-
-<h3 id="fixed-44">Fixed</h3>
-<ul>
-  <li>Visual glitches with todo title in quick add view when using natural language dates.</li>
-  <li>Fix subtodo quick add bug where text field was not focusing properly.</li>
-  <li>Forgot to respect todo list settings in quick add</li>
-  <li>Fix some tags were appearing with white background</li>
-</ul>
-
-<h2 id="020-8---2022-07-15">[0.2.0 (8)] - 2022-07-15</h2>
-<h3 id="added-52">Added</h3>
-<ul>
-  <li>Natural language dates parsing in quick add (Experimental)</li>
-</ul>
-
-<h3 id="changed-41">Changed</h3>
-<ul>
-  <li>Rearrange UI elements in quick add view</li>
-  <li>Change quick add cancel button to a save button</li>
-</ul>
-
-<h3 id="fixed-45">Fixed</h3>
-<ul>
-  <li>Visual glitches when todo title was too long in quick add view</li>
-</ul>
-
-<h2 id="020-7---2022-07-15">[0.2.0 (7)] - 2022-07-15</h2>
-<h3 id="added-53">Added</h3>
-<ul>
-  <li>Natural language dates parsing in quick add (Experimental)</li>
-</ul>
-
-<h2 id="020-6---2022-07-14">[0.2.0 (6)] - 2022-07-14</h2>
-<h3 id="added-54">Added</h3>
-<ul>
-  <li>Calendar view initalises to current date and time</li>
-  <li>Improved create new todo experience - allows for quick-adds</li>
-  <li>Add the option to infer recurring events when the todo is recurring. For example, if you drag a todo that is set to recur every 4 days, the app will ask if you want the created event to also recur every 4 days. This behaviour can be changed in the settings.</li>
-  <li>Add counts to the filter rows. Displays the number of incomplete tasks that have the particular project or tag.</li>
-</ul>
-
-<h3 id="fixed-46">Fixed</h3>
-<ul>
-  <li>Dragging a todo would not scroll to calendar after an event has been created</li>
-  <li>Todo notes editor was not highlighting links that have # symbol correctly</li>
-</ul>
-
-<h2 id="020-5---2022-07-13">[0.2.0 (5)] - 2022-07-13</h2>
-<h3 id="added-55">Added</h3>
-<ul>
-  <li>Keyboard dismiss button for the notes text editor on iPhones</li>
-</ul>
-
-<h3 id="fixed-47">Fixed</h3>
-<ul>
-  <li>Unable to add subtasks</li>
-</ul>
-
-<h2 id="020-4---2022-07-13">[0.2.0 (4)] - 2022-07-13</h2>
-<h3 id="added-56">Added</h3>
-<ul>
-  <li>Back button to onboarding views for clarity in UI</li>
-  <li>Settings button in the matrix view’s menu button. Another way for users to get to the settings screen (it is also in the filters menu)</li>
-</ul>
-
-<h3 id="fixed-48">Fixed</h3>
-<ul>
-  <li>Edit todo button in todo context menu was not working</li>
-</ul>
-
-<h2 id="020-3---2022-07-12">[0.2.0 (3)] - 2022-07-12</h2>
-<h3 id="added-57">Added</h3>
-<ul>
-  <li>Show onboarding screen for the user’s first launch</li>
-</ul>
-
-<h2 id="020-3---2022-07-12-1">[0.2.0 (3)] - 2022-07-12</h2>
-<h3 id="added-58">Added</h3>
-<ul>
-  <li>Animations for bulk move actions</li>
-</ul>
-
-<h2 id="020-2---2022-07-12">[0.2.0 (2)] - 2022-07-12</h2>
-<h3 id="fixed-49">Fixed</h3>
-<ul>
-  <li>New todo page was not respecting current todo list filter</li>
-  <li>New todo was not being added into the right eisenhower matrix cell</li>
-</ul>
-
-<h2 id="020-1---2022-07-12">[0.2.0 (1)] - 2022-07-12</h2>
-<h3 id="added-59">Added</h3>
-<ul>
-  <li>Ability to upload files or media as attachments to a task</li>
-  <li>Various tutorial pages for tags, projects, lists and subtasks</li>
-</ul>
-
-<h3 id="changed-42">Changed</h3>
-<ul>
-  <li>Adjusted the padding and icon size of projects in the filter menu</li>
-</ul>
-
-<h3 id="fixed-50">Fixed</h3>
-<ul>
-  <li>Add sub todo button was not responding to taps</li>
-  <li>Todos would sometimes loop infinitely while in edit mode</li>
-  <li>Tapping the add todo button caused a crash when a tag or project was filtered</li>
-  <li>Matrix view was too low on iPad</li>
-  <li>Todo detail view was not displaying properly on iPad</li>
-</ul>
-
-<h2 id="010-9---2022-07-11">[0.1.0 (9)] - 2022-07-11</h2>
-<h3 id="added-60">Added</h3>
-<ul>
-  <li>Ability to upload images and attachments to tasks</li>
-</ul>
-
-<h2 id="010-8---2022-07-11">[0.1.0 (8)] - 2022-07-11</h2>
-<h3 id="added-61">Added</h3>
-<ul>
-  <li>Ability to add subtasks to new todos</li>
-  <li>Alert on dismissing sheet views when there are unsaved changes</li>
-</ul>
-
-<h3 id="fixed-51">Fixed</h3>
-<ul>
-  <li>Some tasks would behave like they were recurring even if they had no due date set.</li>
-  <li>Fix new todo and sub todos not respecting current filter preferences</li>
-</ul>
-
-<h2 id="010-7---2022-07-09">[0.1.0 (7)] - 2022-07-09</h2>
-<h3 id="added-62">Added</h3>
-<ul>
-  <li>Added the ability to set colors for both projects and tags</li>
-  <li>Added support for recurring tasks</li>
-  <li>Added the ability to open links detected in todo notes</li>
-  <li>Added progress indicator to tasks with sub tasks</li>
-  <li>Filter preferences are now saved and synced across devices</li>
-</ul>
-
-<h3 id="changed-43">Changed</h3>
-<ul>
-  <li>Changed the default behviour of completing subtasks as such: When all subtasks are completed, the parent task is NOT automatically completed</li>
-</ul>
-
-<h3 id="fixed-52">Fixed</h3>
-<ul>
-  <li>Fixed: cannot open settings menu after editing/creating todo</li>
-</ul>
-
-<h2 id="010-6---2022-07-08">[0.1.0 (6)] - 2022-07-08</h2>
-<h3 id="fixed-53">Fixed</h3>
-<ul>
-  <li>Updated the logic for sorting todos. Previous version caused infinite looping when multiple todos were pinned</li>
-</ul>
-
-<h2 id="010-5---2022-07-08">[0.1.0 (5)] - 2022-07-08</h2>
-<h3 id="added-63">Added</h3>
-<ul>
-  <li>Added animations to filtering actions</li>
-</ul>
-
-<h2 id="010-4---2022-07-08">[0.1.0 (4)] - 2022-07-08</h2>
-<h3 id="fixed-54">Fixed</h3>
-<ul>
-  <li>Fix bug with filtering due to eisenhower status</li>
-  <li>Fix visual bug with scroll overflow</li>
-</ul>
-
-<h2 id="010-3---2022-07-08">[0.1.0 (3)] - 2022-07-08</h2>
-<h3 id="added-64">Added</h3>
-<ul>
-  <li>Add inbox, today, anytime and someday categorisations inspired by GTD</li>
-  <li>You can now organise a set of todos into Projects</li>
-  <li>Add various utility functions to Select Mode (previously Edit Mode). For example, move a group of todos to a certain Project/Category or add tags to them</li>
-  <li>Add more default filters such as Overdue and Due in 7 Days</li>
-  <li>Add ability to search todos by title and their contained notes</li>
-  <li>Add markdown support for Scratch Pad</li>
-  <li>Scratch pad notes can now be saved and synced across devices</li>
-  <li>Add list view as an alternative to the matrix view (useful for smaller devices like iPhone)</li>
-</ul>
-
-<h2 id="010-2---2022-07-04">[0.1.0 (2)] - 2022-07-04</h2>
-<h3 id="added-65">Added</h3>
-<ul>
-  <li>Added the ability to filter tasks that have no due date</li>
-  <li>Added a button to clear selection of filters</li>
-  <li>Added ability to group tasks into lists/folders (in addition to tags)</li>
-  <li>Added the ability to pin tasks to the top via the context menu</li>
-  <li>Replaced the glitchy swipe to delete with context menu.
-  Note: If you would like to delete multiple todos quickly, long press on the todo and select “Enter Edit Mode”.</li>
-</ul>
-
-<h3 id="changed-44">Changed</h3>
-<ul>
-  <li>Changed the iPad UI</li>
-</ul>
-
-<h3 id="removed-5">Removed</h3>
-<ul>
-  <li>Removed save button in the editing screen (changes are automatically saved when the screen is dismissed)</li>
-</ul>
 
-<h3 id="fixed-55">Fixed</h3>
 <ul>
-  <li>Fixed a bug where some todos required 2 taps to bring up the edit screen
-Thank you for downloading yet another to-do app.</li>
+  <li>Fixed a visual issue where tasks with tags were not showing its tag indicator</li>
 </ul>
-
 
 
       <footer class="site-footer">
