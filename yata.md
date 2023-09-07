@@ -30,4 +30,4 @@ Other features include push notifications, recurring tasks, attachments, bulk ed
 
 [Documentation]({{ site.base-url }}/yata/docs)
 
-[Full Changelog]({{ site.base-url }}/yata/changelog)
+[Changelog]({{ site.base-url }}/yata/changelog)
