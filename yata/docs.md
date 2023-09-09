@@ -97,11 +97,11 @@ In Yata, a time block is a **special type of subtask that can have many parent t
 
 Sometime we have tasks that **aren’t easily broken down into smaller chunks**. And usually, they **take multiple sittings** to get done. Such tasks are not only **intimidating to tackle**, but they also **do not make us feel rewarded** for incremental progress made on them.
 
-Both of these factors **increase the likelihood of procrastinatio**.
+Both of these factors **increase the likelihood of procrastination**.
 
 Take a task such as **“Write the first draft of the essay”** for example. If you had scheduled the task to be worked on for an hour, but did not complete it during that sitting, there is no reward for that. In fact, you are **“punished” by having an incomplete task left in the schedule**.
 
-Time blocks allow you to schedule such large tasks in terms **smaller, more manageable and actionable chunks**. This is because you can think of a time block as a task that is considered complete once the alloted time has been spent on its parent task(s).
+Time blocks allow you to schedule such large tasks in terms of **smaller, more manageable and actionable chunks**. This is because you can think of a time block as a task that is considered complete once the allotted time has been spent on its parent task(s).
 
 This means that **regardless** of if you have actually finished **“Writing the first draft”**, you can complete its time block and feel good about yourself, as you should!
 
