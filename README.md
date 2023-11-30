@@ -24,7 +24,7 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
 4. Run your Jekyll site locally.
 
 ```
-$ arch -x86_64 bundle exec jekyll serve
+$ bundle exec jekyll build && bundle exec jekyll serve
 
 > Configuration file: /Users/octocat/my-site/\_config.yml
 > Source: /Users/octocat/my-site
