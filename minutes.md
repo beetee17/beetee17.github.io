@@ -1,5 +1,5 @@
 # Minutes: AI Voice Notes
 
-[Install the Beta Build via Testflight](https://testflight.apple.com/join/5z25NHwR)
+[App Store Link](https://apps.apple.com/app/minutes-ai-voice-notes/id1627915461)
 
 [Privacy Policy]({{ site.base-url }}/minutes/privacy)
